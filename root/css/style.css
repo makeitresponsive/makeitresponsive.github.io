@@ -1,0 +1,212 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+html, body {
+    overflow-x: hidden;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    border: solid red;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Nav bar styling */
+
+nav {
+    
+}
+
+
+
+
+
+
+
+
+
+/* Hero display styling */
+
+#hero-display-container {
+    background-color: blue;
+}
+
+
+
+
+
+/* About us styling */
+
+#about-us-main-container {
+
+}
+
+
+.about-us-first-container {
+    background-color: yellow;
+
+}
+
+.about-us-second-container {
+    background-color: green;
+
+}
+
+
+
+
+/* Ulike typer events styling */
+
+#events-main-container {
+    
+
+}
+
+
+.events-description-container {
+
+
+}
+
+
+.event-type-1, .event-type-2, .event-type-3 {
+    border: solid red;
+    
+
+}
+
+
+
+
+
+
+/* Upcoming events styling */
+
+#upcoming-events-main-container {
+
+
+}
+
+
+#upcoming-events-main-container h2 {
+
+
+}
+
+
+.upcoming-events-sub-1, .upcoming-events-sub-2 {
+    
+
+}
+
+
+
+
+/* Full-width contact us styling */
+
+#contact-us-full-width-container {
+
+
+}
+
+
+
+
+/* About us styling */
+
+
+
+
+
+
+
+/* Ansatte styling */
+
+
+
+/* Stories stlying */
+
+
+/* Footer styling */
+
+
+
+/* Width styling */
+
+#hero-display-container, #about-us-main-container, #events-main-container, #upcoming-events-main-container, #about-us-main-container, #ansatte-main-container, #stories-main-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px){
+
+.about-us-modifier-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-first-container {
+    width: 30%
+}
+
+.about-us-second-container {
+    width: 70%;
+}
+
+#hero-display-container, #about-us-main-container, #events-main-container, #upcoming-events-main-container, #about-us-main-container, #ansatte-main-container, #stories-main-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.stories-modifier-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.events-description-container {
+    width: 100%;
+}
+
+
+.event-type-1, .event-type-2, .event-type-3, .event-modifier-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.event-type-1-image-container, .event-type-2-image-container, .event-type-3-image-container { 
+    width: 20%;
+}
+
+.event-type-1-text-container, .event-type-2-text-container, .event-type-3-text-container {
+    width: 80%;
+}
+
+
+} 
