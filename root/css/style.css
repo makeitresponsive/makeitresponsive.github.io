@@ -2,7 +2,8 @@ html {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    
+
+
 }
 
 html, body {
@@ -22,8 +23,14 @@ html, body {
 /* Nav bar styling */
 
 nav {
-    
+  display: flex;
+  justify-content: center;
 }
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
 
 
 
@@ -66,7 +73,7 @@ nav {
 /* Ulike typer events styling */
 
 #events-main-container {
-    
+
 
 }
 
@@ -79,7 +86,7 @@ nav {
 
 .event-type-1, .event-type-2, .event-type-3 {
     border: solid red;
-    
+
 
 }
 
@@ -103,7 +110,7 @@ nav {
 
 
 .upcoming-events-sub-1, .upcoming-events-sub-2 {
-    
+
 
 }
 
@@ -200,7 +207,7 @@ nav {
 }
 
 
-.event-type-1-image-container, .event-type-2-image-container, .event-type-3-image-container { 
+.event-type-1-image-container, .event-type-2-image-container, .event-type-3-image-container {
     width: 20%;
 }
 
@@ -209,4 +216,4 @@ nav {
 }
 
 
-} 
+}
