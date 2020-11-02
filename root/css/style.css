@@ -43,7 +43,15 @@ ul li {
 /* Hero display styling */
 
 #hero-display-container {
-    background-color: blue;
+    height: 20vh;
+    background-image: url("../../images/hero image 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-display-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -79,8 +87,7 @@ ul li {
 
 
 .events-description-container {
-
-
+  text-align: center;
 }
 
 
@@ -88,6 +95,18 @@ ul li {
     border: solid red;
 
 
+}
+.event-type-1-image-container, .event-type-2-image-container, .event-type-3-image-container  {
+  height: 5vh;
+  background-image: url("../../images/hero image 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.event-type-1-text-container, .event-type-2-text-container, .event-type-3-text-container {
+  height: 10vh;
 }
 
 
@@ -99,12 +118,11 @@ ul li {
 
 #upcoming-events-main-container {
 
-
 }
 
 
 #upcoming-events-main-container h2 {
-
+  text-align: center;
 
 }
 
@@ -123,27 +141,82 @@ ul li {
 
 
 }
+#contact-us-full-width-container h2 {
+  text-align: center;
+}
 
 
 
 
 /* About us styling */
+#about-us-main-container {
 
+}
+#about-us-main-container h2 {
+  text-align: center;
+}
 
+.about-us-description-container {
 
+}
+.about-us-image-container {
+
+}
+.about-us-text-container {
+
+}
+.about-us-text-container h2 {
+  text-align: center;
+}
 
 
 
 
 /* Ansatte styling */
+#ansatte-main-container {
 
+}
+#ansatte-main-container h2 {
+  text-align: center;
+}
+.ansatte-text-container {
+
+}
 
 
 /* Stories stlying */
+#stories-main-container {
 
+}
+#stories-main-container h2 {
+  text-align: center;
+}
+.stories-modifier-container {
+
+}
+.story-1-container {
+
+}
+.story-2-container {
+
+}
+.story-3-container {
+
+}
 
 /* Footer styling */
+.footer-container-1 {
 
+}
+.footer-container-2 {
+
+}
+.footer-container-3 {
+
+}
+.footer-container-4 {
+
+}
 
 
 /* Width styling */
