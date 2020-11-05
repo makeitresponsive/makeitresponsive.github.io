@@ -24,8 +24,10 @@ html, body {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
+
+
 ul li {
   list-style: none;
   display: inline-block;
