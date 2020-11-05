@@ -1,0 +1,22 @@
+
+.heroDisplay-background {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/heroDisplay.png");
+  padding-top: 5%;
+
+}
+
+.heroDisplay-tittel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  font-size: 3.125rem;
+
+}

@@ -24,8 +24,7 @@ html, body {
 }
 
 
-/* Nav bar styling */
-
+/* NavBar */
 nav {
   display: flex;
   background-color: white;
@@ -53,9 +52,12 @@ nav h1 {
   width: 50%;
 }
 
+/* Understrek */
 .active {
   border-bottom: 3px solid #3D5A80;
 }
+
+/* NavBar Slutt */
 
 
 
