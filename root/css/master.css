@@ -6,6 +6,10 @@ html {
 
 }
 
+body {
+  font-family: roboto;
+}
+
 html, body {
     overflow-x: hidden;
 
@@ -13,7 +17,7 @@ html, body {
 
 *, *:before, *:after {
     box-sizing: inherit;
-    border: solid red;
+    /*border: solid red;*/
 
     padding: 0;
     margin: 0;
@@ -24,13 +28,33 @@ html, body {
 
 nav {
   display: flex;
+  background-color: white;
+  height: 80px;
   justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
+nav a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #EE6C4D;
+}
 
-ul li {
-  list-style: none;
-  display: inline-block;
+nav h1 {
+  color: #EE6C4D;
+}
+
+.nav-Navigation-Link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 50%;
+}
+
+.active {
+  border-bottom: 3px solid #3D5A80;
 }
 
 
@@ -94,7 +118,7 @@ ul li {
 
 
 .event-type-1, .event-type-2, .event-type-3 {
-    border: solid red;
+    /*border: solid red;*/
 
 
 }
