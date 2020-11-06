@@ -25,15 +25,24 @@ h2 {
   font-weight: 900;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 h3,
 button {
   font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 p,
 a,
 input {
   font-weight: 400;
+  font-size: 1.5rem;
 }
 
 html,
@@ -45,8 +54,6 @@ body {
 *:before,
 *:after {
   box-sizing: inherit;
-  /*border: solid red;*/
-
   padding: 0;
   margin: 0;
 }
@@ -69,7 +76,7 @@ nav a {
 }
 
 nav header {
-  color: #EE6C4D;
+  color: #ee6c4d;
   font-size: 1.5625em;
 }
 
