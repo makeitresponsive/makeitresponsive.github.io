@@ -16,6 +16,12 @@ html {
   font-size: 10px;
 }
 
+body {
+  border: none;
+  box-shadow: 3px 8px 9px #d3d3d3;
+  
+}
+
 h1 {
   font-size: 5rem;
 }
@@ -261,7 +267,7 @@ footer {
   height: 100%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: nowrap;
+
   flex-direction: column;
 }
 
@@ -443,6 +449,8 @@ Footer media queries
   .footer-container {
     width: 80%;
     flex-wrap: nowrap;
+    margin: 0 auto;¨
+    
   }
   footer h2 {
     font-size: 2.25rem;
@@ -461,9 +469,16 @@ Footer media queries
   .footer-container-text {
     display: flex;
     flex-direction: column;
+
     justify-content: space-between;
   }
+  .test {
+    
+  }
+
 }
+
+
 
 @media only screen and (min-width: 1250px) {
   .footer-container {
