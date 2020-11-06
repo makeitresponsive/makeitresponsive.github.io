@@ -6,6 +6,10 @@ html {
 
 }
 
+body {
+  font-family: roboto;
+}
+
 html, body {
     overflow-x: hidden;
 
@@ -13,23 +17,47 @@ html, body {
 
 *, *:before, *:after {
     box-sizing: inherit;
-    border: solid red;
+    /*border: solid red;*/
 
     padding: 0;
     margin: 0;
 }
 
 
-/* Nav bar styling */
-
+/* NavBar */
 nav {
   display: flex;
-  justify-content: center;
+  background-color: white;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
 }
-ul li {
-  list-style: none;
-  display: inline-block;
+
+nav a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #EE6C4D;
 }
+
+nav h1 {
+  color: #EE6C4D;
+}
+
+.nav-Navigation-Link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 50%;
+}
+
+/* Understrek */
+.active {
+  border-bottom: 3px solid #3D5A80;
+}
+
+/* NavBar Slutt */
 
 
 /* colors */
@@ -93,7 +121,7 @@ $orange = #EE6C4D;
 
 
 .event-type-1, .event-type-2, .event-type-3 {
-    border: solid red;
+    /*border: solid red;*/
 
 
 }
