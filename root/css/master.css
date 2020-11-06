@@ -62,7 +62,7 @@ body {
 nav {
   display: flex;
   background-color: white;
-  height: 80px;
+  height: 150px;
   justify-content: space-between;
   align-items: center;
   width: 95%;
