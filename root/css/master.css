@@ -58,7 +58,7 @@ nav {
   height: 80px;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -68,15 +68,21 @@ nav a {
   color: #ee6c4d;
 }
 
-nav h1 {
-  color: #ee6c4d;
+nav header {
+  color: #EE6C4D;
+  font-size: 1.5625em;
 }
 
 .nav-Navigation-Link {
+  visibility: hidden;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 50%;
+}
+
+.nav-Icon {
+  display: flex;
 }
 
 /* Understrek */
