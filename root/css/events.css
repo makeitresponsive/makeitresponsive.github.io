@@ -1,4 +1,12 @@
-html {
+.schedule-table {
+}
+
+.schedule-table {
+  box-shadow: 1px 5px 10px #d3d3d3;
+}
+
+.upper-schedule-container {
+  max-width: 1600px;
 }
 
 #innovation-type-section,
@@ -16,13 +24,17 @@ html {
   padding: 2.5rem 0 2rem;
 }
 
+.contact-left-column,
+.contact-right-column {
+  border: solid red;
+}
+
 .schedule-container {
   padding: 0 0 2rem;
 }
 
 .schedule-table {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   background-color: #f8f8f8;
@@ -45,9 +57,11 @@ input {
   padding: 1rem 0 1rem;
 }
 
-.table-heading th:first-of-type {
-  font-size: 10rem;
-  border: solid red;
+.row-1,
+.column-2,
+.column-3 {
+  width: 33%;
+  text-align: center;
 }
 
 /*Endre font size og weight på table heading 
@@ -83,6 +97,9 @@ FORM STYLING
 .message-container {
   display: flex;
   flex-direction: column;
+}
+
+.form-container {
   width: 95%;
   margin: 0 auto;
 }
@@ -126,4 +143,154 @@ FORM STYLING
   width: 100%;
   font-size: 2rem;
   background-color: #3d5a80;
+}
+
+/* 
+
+
+Media Queries
+
+
+*/
+@media only screen and (min-width: 600px) {
+  .upper-schedule-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .upper-schedule-container > .schedule-container {
+    width: 47.5%;
+  }
+
+  .schedule-container-bottom {
+    border: solid red;
+    display: flex;
+    width: 100%;
+  }
+
+  .schedule-left-column,
+  .schedule-right-column {
+    width: 50%;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-left-column,
+  .contact-right-column {
+    width: 50%;
+  }
+
+  .contact-left-column {
+    padding-right: 1rem;
+  }
+
+  .contact-right-column {
+    padding-left: 1rem;
+  }
+
+  .message-button {
+    width: 50%;
+    margin-top: 0.65rem;
+  }
+
+  .table-sub-heading {
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #innovation-type-section,
+  #innovation-schedule-section,
+  .form-container,
+  #contact-section h2 {
+    width: 90%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  #contact-section h2 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #innovation-type-section,
+  #innovation-schedule-section,
+  .form-container,
+  #contact-section h2 {
+    width: 80%;
+  }
+
+  .schedule-table {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+}
+
+@media only screen and (min-width: 1400px) {
+  #innovation-type-section,
+  #innovation-schedule-section,
+  .form-container,
+  #contact-section h2 {
+    width: 60%;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  #innovation-schedule-section h2,
+  #contact-section h2 {
+    padding: 4rem 0 3rem;
+  }
+
+  .schedule-table th {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .schedule-table td {
+    font-size: 1.5rem;
+  }
+
+  .form-container label {
+    font-size: 2rem;
+    padding: 2rem 0 1rem;
+  }
+
+  .button-container {
+    padding: 5rem 0 4rem;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .table-sub-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .bootcamp-left-column {
+    display: flex;
+  }
+
+  .schedule-container {
+    padding: 0 0 4rem;
+  }
+
+  .schedule-table td {
+    padding: 0 0 2.5rem;
+  }
+
+  .schedule-table th {
+    padding: 2rem 0 1rem;
+  }
 }

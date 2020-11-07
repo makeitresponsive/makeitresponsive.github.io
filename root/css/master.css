@@ -318,6 +318,73 @@ footer a:hover {
 /*
 
 
+Font size media queries
+
+
+*/
+
+@media only screen and (min-width: 500px) {
+  h1,
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  p,
+  label,
+  input,
+  button,
+  a,
+  textarea {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+}
+
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (min-width: 1250px) {
+}
+
+@media only screen and (min-width: 1400px) {
+  h1 {
+    font-size: 5rem;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  label,
+  input,
+  button,
+  textarea {
+    font-size: 2rem;
+  }
+
+  button {
+    font-weight: 500;
+  }
+}
+
+/*
+
+
 Footer media queries
 
 
