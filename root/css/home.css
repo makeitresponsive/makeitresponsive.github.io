@@ -73,3 +73,21 @@
   margin: 4%;
   line-height: 1.6;
 }
+
+@media only screen and (min-width: 1000px) {
+  .aboutUs-container {
+    width: 80%;
+    flex-direction: row;
+    border: solid black;
+  }
+
+  .aboutUs-info-small {
+    width: 30%;
+    padding: 2%;
+  }
+  .aboutUs-info-lagre {
+    width: 70%;
+    height: 100%;
+    padding: 2%;
+  }
+}

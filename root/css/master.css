@@ -84,6 +84,14 @@ nav header {
   color: #ee6c4d;
   font-size: 5rem;
 }
+.nav-link-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 50%;
+}
 
 .nav-Navigation-Link {
   visibility: hidden;
@@ -337,6 +345,7 @@ Footer media queries
 }
 
 @media only screen and (min-width: 750px) {
+
   .footer-container {
     flex-direction: row;
   }
@@ -357,9 +366,31 @@ Footer media queries
 }
 
 @media only screen and (min-width: 1000px) {
+  /* NavBar */
+  .nav-link-icon-container {
+    flex-direction: row-reverse;
+  }
+  .nav-Navigation-Link {
+    visibility: visible;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  nav a {
+    font-size: 2.25rem;
+  }
+
+  .nav-Icon {
+    visibility: hidden;
+  }
+  /* NavBar */
+
+
   .footer-container {
     width: 80%;
-
+    flex-direction: row;
     margin: 0 auto;
     border: solid red;
   }
