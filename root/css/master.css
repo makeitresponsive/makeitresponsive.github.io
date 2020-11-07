@@ -12,7 +12,8 @@ html {
   min-height: 100%;
 }
 html,
-button {
+button,
+footer {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -133,7 +134,6 @@ nav header {
   align-items: center;
 }
 
-
 /* Upcoming events styling */
 
 #upcoming-events-main-container {
@@ -219,78 +219,12 @@ nav header {
   margin: 0 auto;
 }
 
-/* Footer styling
+/* 
 
 
 
+font media queries
 
-
-
-
-
-*/
-footer {
-  background-color: #ee6c4d;
-}
-
-.footer-container {
-  width: 95%;
-  margin: 0 auto;
-  padding: 3rem 0 3rem;
-}
-
-.footer-icon {
-  padding: 1rem 1rem;
-}
-
-.footer h2 {
-  padding: 3rem 0 2rem;
-}
-.footer-container-text a {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-}
-
-footer h2,
-footer p,
-footer a {
-  color: #f8f8f8;
-}
-
-footer p,
-footer a {
-  font-size: 4rem;
-  line-height: 5rem;
-}
-
-footer a:hover {
-  color: #3d5a80;
-  font-weight: 900;
-  text-decoration: underline #f8f8f8;
-}
-
-.footer-icons-container {
-  display: flex;
-}
-
-.footer-icon {
-  width: 20%;
-}
-
-.footer-text {
-  width: 80%;
-}
-
-.footer-icon img {
-  width: 80%;
-  height: 80%;
-}
-
-/*
-
-
-Font size media queries
 
 
 */
@@ -318,15 +252,38 @@ Font size media queries
 }
 
 @media only screen and (min-width: 750px) {
+  p,
+  label,
+  input,
+  button,
+  a,
+  textarea {
+    line-height: 2.25rem;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
+  p,
+  label,
+  input,
+  button,
+  a,
+  textarea {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 2.75rem;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
+  h2 {
+    font-size: 3rem;
+  }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
   h1 {
     font-size: 5rem;
     font-weight: 900;
@@ -334,7 +291,6 @@ Font size media queries
 
   h2 {
     font-size: 3.5rem;
-    font-weight: 900;
   }
 
   h3 {
@@ -354,6 +310,25 @@ Font size media queries
   }
 }
 
+/* Footer styling
+
+
+
+
+
+
+
+
+*/
+
+/*
+
+
+Font size media queries
+
+
+*/
+
 /*
 
 
@@ -362,140 +337,20 @@ Footer media queries
 
 */
 
-@media only screen and (min-width: 550px) {
-  footer h2 {
-    font-size: 4rem;
-  }
-  .footer-container h2 {
-    padding: 3rem 0 3rem;
-  }
-  footer p,
-  footer a {
-    line-height: 5rem;
-  }
+@media only screen and (min-width: 600px) {
 }
 
 @media only screen and (min-width: 750px) {
-
-  .footer-container {
-    flex-direction: row;
-  }
-  .footer-container-text {
-    width: 50%;
-  }
-  .footer-container-icons {
-    width: 50%;
-  }
-
-  .footer-container h2 {
-    padding: 3rem 0 2rem;
-  }
-  footer p,
-  footer a {
-    line-height: 3.5rem;
-  }
 }
 
 @media only screen and (min-width: 1000px) {
-  /* NavBar */
-  .nav-link-icon-container {
-    flex-direction: row-reverse;
-  }
-  .nav-Navigation-Link {
-    visibility: visible;
-  }
-
-  nav {
-    width: 80%;
-  }
-
-  nav a {
-    font-size: 2.25rem;
-  }
-
-  .nav-Icon {
-    visibility: hidden;
-  }
-  /* NavBar */
-
-
-  .footer-container {
-    width: 80%;
-    flex-direction: row;
-    margin: 0 auto;
-    border: solid red;
-  }
-  footer h2 {
-    font-size: 2.25rem;
-  }
-  .footer-container h2 {
-    padding: 2rem 0 2rem;
-  }
-  .footer-icon {
-    padding: 1.5 rem 0 0 1.5rem;
-  }
-  footer p,
-  footer a {
-    font-size: 1.125rem;
-    line-height: 2.5rem;
-  }
-  .footer-container-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
 }
 
 @media only screen and (min-width: 1250px) {
-  .footer-container {
-    width: 70%;
-  }
-  footer h2 {
-    font-size: 2.25rem;
-  }
-
-  .footer-container h2 {
-    padding: 1.5rem 0 1.5rem;
-  }
-  .footer-container-icons {
-    display: flex;
-    flex-direction: column;
-  }
-  footer p,
-  footer a {
-    font-size: 1.125rem;
-    line-height: 2.25rem;
-  }
-  .footer-icon {
-    padding: 1.5rem;
-  }
 }
 
 @media only screen and (min-width: 1400px) {
-  .footer-container {
-    width: 60%;
-    max-width: 1600px;
-  }
-
-  .footer-icon {
-    padding: 2rem 3rem 0 2rem;
-  }
-  footer h2 {
-    font-size: 3rem;
-  }
-  .footer-container h2 {
-    padding: 1rem 0 0.5rem;
-  }
-  footer p,
-  footer a {
-    font-size: 2.25rem;
-  }
-  .footer-center-wrapper {
-    display: flex;
-    align-items: stretch;
-  }
 }
-
 /* Media queries */
 
 @media only screen and (min-width: 1440px) {
