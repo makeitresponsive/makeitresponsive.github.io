@@ -234,6 +234,11 @@ Media Queries
 }
 
 @media only screen and (min-width: 1250px) {
+  #innovation-type-section,
+  #innovation-schedule-section,
+  .form-container,
+  #contact-section h2 {
+    width: 70%;
 }
 
 @media only screen and (min-width: 1400px) {
