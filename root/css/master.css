@@ -7,7 +7,10 @@ Black = black
 white = white
 
 */
-
+html {
+  position: relative;
+  min-height: 100%;
+}
 html,
 button {
   box-sizing: border-box;
@@ -18,6 +21,10 @@ button {
 body {
   border: none;
   box-shadow: 3px 8px 9px #d3d3d3;
+  min-height: 100%;
+}
+main {
+  min-height: 100%;
 }
 
 h1 {
@@ -126,49 +133,6 @@ nav header {
   align-items: center;
 }
 
-/* About us styling */
-
-#about-us-main-container {
-}
-
-.about-us-first-container {
-  background-color: yellow;
-}
-
-.about-us-second-container {
-  background-color: green;
-}
-
-/* Ulike typer events styling */
-
-#events-main-container {
-}
-
-.events-description-container {
-  text-align: center;
-}
-
-.event-type-1,
-.event-type-2,
-.event-type-3 {
-  /*border: solid red;*/
-}
-.event-type-1-image-container,
-.event-type-2-image-container,
-.event-type-3-image-container {
-  height: 5vh;
-  background-image: url("../../images/hero image 1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.event-type-1-text-container,
-.event-type-2-text-container,
-.event-type-3-text-container {
-  height: 10vh;
-}
 
 /* Upcoming events styling */
 
