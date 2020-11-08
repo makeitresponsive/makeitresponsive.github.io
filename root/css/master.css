@@ -4,7 +4,7 @@ Orange = #ee6c4d
 Blue = #3d5a80
 Grey = #f8f8f8
 Black = black
-white = white
+white = #FFFEFB
 
 */
 
@@ -22,7 +22,7 @@ footer {
 
 body {
   border: none;
-  box-shadow: 3px 8px 9px #d3d3d3;
+  /*box-shadow: 3px 8px 9px #d3d3d3;*/
   min-height: 100%;
 }
 main {
@@ -107,7 +107,7 @@ nav header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 50%;
+  width: 60%;
 }
 
 .nav-Icon {
@@ -118,22 +118,31 @@ nav header {
 .active {
   border-bottom: 3px solid #3d5a80;
 }
-
 /* NavBar Slutt */
 
-/* Hero display styling */
+/* NavBar Media queries */
 
-#hero-display-container {
-  height: 20vh;
-  background-image: url("../../images/hero image 1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+@media only screen and (min-width: 1000px) {
+  nav {
+    width: 80%;
+  }
+  .nav-link-icon-container {
+    flex-direction: row-reverse;
+
+
+  }
+  .nav-Navigation-Link{
+    visibility: visible;
+  }
+  .nav-Navigation-Link a{
+    font-size: 2rem;
+  }
+  .nav-Icon {
+    visibility: hidden;
+  }
 }
-.hero-display-text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
+
 
 /* Upcoming events styling */
 
@@ -220,7 +229,7 @@ nav header {
   margin: 0 auto;
 }
 
-/* 
+/*
 
 
 
@@ -440,11 +449,11 @@ Footer media queries
   }
 }
 
-/* 
+/*
 
 
 
-Media queries 
+Media queries
 
 
 
