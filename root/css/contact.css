@@ -17,6 +17,9 @@ top section
   color: #f8f8f8;
 }
 
+.intro-text-container {
+}
+
 #intro-section h1 {
   padding: 2rem 0 1rem;
 }
@@ -26,8 +29,9 @@ top section
 }
 
 .intro-text-container,
-#form-section {
-  max-width: 1600px;
+#form-section,
+.footer-master-container {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -134,6 +138,18 @@ Media queiries
     display: flex;
   }
 
+  #intro-section h1 {
+    padding: 4rem 0 1rem;
+  }
+
+  #intro-section p {
+    padding: 0 0 3rem;
+  }
+
+  #form-section {
+    padding: 0 0 1.5rem;
+  }
+
   #form-section h2 {
     padding: 3rem 0 1rem;
   }
@@ -157,7 +173,6 @@ Media queiries
   .contact-left-column,
   .contact-right-column {
     width: 50%;
-    border: solid red;
   }
   .contact-left-column {
     display: block;
@@ -173,24 +188,41 @@ Media queiries
 }
 
 @media only screen and (min-width: 1000px) {
-  #intro-section h1,
-  #intro-section p,
-  .form-width-container {
+  .intro-text-container .form-width-container {
     width: 80%;
     margin: 0 auto;
+  }
+
+  #intro-section h1 {
+    padding: 6rem 0 2rem;
+  }
+
+  #intro-section p {
+    padding: 0 0 5rem;
   }
 }
 
 @media only screen and (min-width: 1250px) {
-  #intro-section h1,
-  #intro-section p,
+  .intro-text-container,
   .form-width-container {
     width: 70%;
     margin: 0 auto;
   }
 
+  #intro-section h1 {
+    text-align: center;
+  }
+
+  #intro-section p {
+    text-align: center;
+  }
+
   .message-button {
     width: 50%;
+  }
+
+  #form-section {
+    padding: 0 0 2rem;
   }
 
   #form-section h2 {
@@ -203,19 +235,19 @@ Media queiries
 }
 
 @media only screen and (min-width: 1400px) {
-  #intro-section h1,
-  #intro-section p,
+  .intro-text-container,
   .form-width-container {
     width: 60%;
     margin: 0 auto;
   }
 
   #intro-section h1 {
-    padding: 4rem 0 1rem;
+    padding: 6rem 0 2rem;
+    font-size: 4rem;
   }
 
   #intro-section p {
-    padding: 0 0 4rem;
+    padding: 0 0 6rem;
   }
 
   #form-section h2 {

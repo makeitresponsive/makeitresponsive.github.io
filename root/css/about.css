@@ -2,6 +2,15 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
 /* Font sizes */
 h1, h2 {
   font-size: 2.5rem;
@@ -26,7 +35,7 @@ p {
   margin: 0 auto;
 }
 .first-container-picture-2 {
-  height: 300px;
+
   width: 100%;
 }
 .first-container-texts {
@@ -119,14 +128,20 @@ p {
   margin-top: 25px;
 }
 .last-container-picture-2 {
-  height: 300px;
+
   width: 100%;
 }
 .last-container-picture-1 {
-  margin-top: 15px;
+  
 }
 .last-container-texts {
   width: 100%;
+}
+
+
+
+.last-container {
+  
 }
 /*
 .last-container-texts h1 {
@@ -148,18 +163,27 @@ p {
     width: 90%;
     display: flex;
     flex-direction: row-reverse;
+    
+  }
+
+  .first-container-texts {
+    width: 45%;
+    padding-right: 1.5rem;
+    
   }
   .first-container-picture-1 {
-    width: 50%;
-  }
-  .first-container-picture-2 {
-    height: 400px;
+    width: 55%;
+    padding-left: 1rem;
+    
+    
+    
   }
   .first-container-texts {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-right: 75px;
+    
+    
   }
   .steps-heading {
     margin-top: 100px;
@@ -169,13 +193,24 @@ p {
   .steps-container-items {
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
   }
   .steps-card {
-    width: 33.3%;
-    margin: 0px 15px;
+    width: 45%;
+    margin: 0 10px;
     margin-bottom: 100px;
   }
+
+  .steps-container-items{
+    display: flex;
+    border: solid red;
+    justify-content: center;
+  }
+
+  .steps-card:nth-child(2){
+    }
+
   .steps-card p {
     margin: 0px 30px;
   }
@@ -198,9 +233,6 @@ p {
   }
   .last-container-picture-1 {
     width: 50%;
-  }
-  .last-container-picture-2 {
-    height: 400px;
   }
   .last-container-texts {
     display: flex;
