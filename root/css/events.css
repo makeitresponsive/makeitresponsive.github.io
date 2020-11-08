@@ -1,14 +1,3 @@
-.schedule-table {
-}
-
-.schedule-table {
-  box-shadow: 1px 5px 10px #d3d3d3;
-}
-
-.upper-schedule-container {
-  max-width: 1600px;
-}
-
 #innovation-type-section,
 #innovation-schedule-section {
   width: 95%;
@@ -26,11 +15,12 @@
 
 .contact-left-column,
 .contact-right-column {
-  border: solid red;
 }
 
 .schedule-container {
-  padding: 0 0 2rem;
+  padding: 0 0 2rem;red;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .schedule-table {
@@ -40,6 +30,13 @@
   background-color: #f8f8f8;
   align-items: center;
   table-layout: fixed;
+  
+}
+
+.upper-schedule-container>.schedule-container{
+  
+  display: flex;
+  justify-content: flex-end;
 }
 
 .schedule-table th,
@@ -62,6 +59,12 @@ input {
 .column-3 {
   width: 33%;
   text-align: center;
+}
+
+#table-sub-heading {
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 3rem 0 2rem;
 }
 
 /*Endre font size og weight på table heading 
@@ -126,6 +129,8 @@ FORM STYLING
 .form-container input {
   height: 5rem;
   opacity: 50%;
+  display: flex;
+  align-items: center;
   padding: 0 1rem 0;
 }
 
@@ -145,6 +150,59 @@ FORM STYLING
   background-color: #3d5a80;
 }
 
+/* Footer styling
+
+
+
+
+
+
+
+
+*/
+
+footer {
+  background-color: #f8f8f8;
+  color: #ee6c4d;
+}
+
+.footer-master-container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0rem 0 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ee6c4d;
+}
+
+.footer-text-container a:hover {
+  font-weight: 500;
+  color: #3d5a80;
+}
+
+footer p,
+footer a {
+  font-size: 15px;
+  line-height: 4rem;
+  font-weight: 400;
+}
+
+.footer-text-container {
+  padding: 2rem 0 2rem;
+}
+
+.footer-text-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
 /* 
 
 
@@ -160,13 +218,21 @@ Media Queries
   }
 
   .upper-schedule-container > .schedule-container {
-    width: 47.5%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 2rem;
   }
 
+#upper-schedule-left-column {
+  padding-right: 1rem;
+}
+
+#upper-schedule-right-column {
+  padding-left: 1rem;
+}
   .schedule-container-bottom {
-    border: solid red;
     display: flex;
-    width: 100%;
+    justify-content: space-evenly;
   }
 
   .schedule-left-column,
@@ -177,6 +243,10 @@ Media Queries
   .form-container {
     display: flex;
     flex-direction: row;
+  }
+
+  #contact-section h2 {
+    padding: 3rem 0 1rem;
   }
 
   .contact-left-column,
@@ -199,6 +269,14 @@ Media Queries
 
   .table-sub-heading {
   }
+
+  .schedule-left-column,  {
+    padding: 0 0 2rem;
+  }
+
+  .message-button {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 750px) {
@@ -213,6 +291,10 @@ Media Queries
     text-align: center;
   }
 
+  footer h2 {
+    text-align: left;
+  }
+
   #contact-section h2 {
     width: 90%;
     margin: 0 auto;
@@ -223,9 +305,15 @@ Media Queries
 @media only screen and (min-width: 1000px) {
   #innovation-type-section,
   #innovation-schedule-section,
+  #innovation-schedule-section h2,
   .form-container,
   #contact-section h2 {
     width: 80%;
+    margin: 0 auto;
+  }
+
+  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column  {
+    padding: 0 0 3rem;
   }
 
   .schedule-table {
@@ -236,17 +324,57 @@ Media Queries
 @media only screen and (min-width: 1250px) {
   #innovation-type-section,
   #innovation-schedule-section,
+  #innovation-schedule-section h2,
   .form-container,
   #contact-section h2 {
     width: 70%;
+  }
+
+  #innovation-schedule-section h2 {
+    padding: 3rem 0 2rem;
+  }
+
+  .form-container input {
+    height: 6rem;
+    padding: 0 1rem 2rem;
+  }
+
+  .contact-left-column,
+  .contact-right-column {
+    padding: 0 2rem 6rem;
+  }
+
+  .form-container textarea {
+    height: 16rem;
+  }
+
+  .message-button {
+    font-size: 2rem;
+  }
+
+  
+  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column {
+    padding: 0 0 4rem;
+  }
+  
 }
 
 @media only screen and (min-width: 1400px) {
   #innovation-type-section,
   #innovation-schedule-section,
+  #innovation-schedule-section h2,
   .form-container,
-  #contact-section h2 {
+  #contact-section h2, .footer-master-container {
     width: 60%;
+  }
+
+  .footer-master-container {
+    margin: 0 auto;
+  }
+
+  #table-sub-heading {
+    font-size: 2.5rem;
+    padding: 4rem 0 3rem;
   }
 
   h2 {
@@ -256,6 +384,22 @@ Media Queries
   #innovation-schedule-section h2,
   #contact-section h2 {
     padding: 4rem 0 3rem;
+  }
+
+  #contact-section h2 {
+
+    width: 100%;
+  }
+
+
+  .contact-left-column {
+    padding-left: 0;
+    padding-right: 3rem;
+  }
+
+  .contact-right-column {
+    padding-right: 0;
+    padding-left: 3rem;
   }
 
   .schedule-table th {
@@ -297,5 +441,91 @@ Media Queries
 
   .schedule-table th {
     padding: 2rem 0 1rem;
+  }
+
+  .form-container label {
+    font-size: 1.5rem;
+  }
+
+  .upper-schedule-container, .schedule-container-bottom, .contact-heading-container, .form-container, .footer-master-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+}
+
+/*
+
+
+Footer media queries
+
+
+*/
+
+@media only screen and (min-width: 600px) {
+  .footer-master-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .footer-text-container,
+  .footer-icon-container {
+    width: 50%;
+  }
+
+  .footer-master-container {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .footer-master-container {
+    width: 90%;
+  }
+
+  footer h2 {
+    font-size: 25px;
+  }
+
+  footer p,
+  footer a {
+    line-height: 4rem;
+  }
+
+  .footer-text-container {
+    padding: 3rem 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-master-container {
+    width: 80%;
+  }
+
+  footer p,
+  footer a {
+    line-height: 4rem;
+  }
+
+  .footer-text-container {
+    padding: 4rem 0;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .footer-master-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-master-container {
+    width: 60%;
+    max-width: 1400px;
+  }
+
+  footer p,
+  footer a {
+    font-size: 15px;
+    line-height: 3.5rem;
   }
 }
