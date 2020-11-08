@@ -128,21 +128,17 @@ nav header {
   }
   .nav-link-icon-container {
     flex-direction: row-reverse;
-
-
   }
-  .nav-Navigation-Link{
+  .nav-Navigation-Link {
     visibility: visible;
   }
-  .nav-Navigation-Link a{
+  .nav-Navigation-Link a {
     font-size: 2rem;
   }
   .nav-Icon {
     visibility: hidden;
   }
 }
-
-
 
 /* Upcoming events styling */
 
@@ -439,7 +435,7 @@ Footer media queries
 @media only screen and (min-width: 1440px) {
   .footer-master-container {
     width: 60%;
-    max-width: 1400px;
+    max-width: 1200px;
   }
 
   footer p,
@@ -481,7 +477,7 @@ Media queries
   #ansatte-main-container,
   #stories-main-container {
     width: 60%;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 

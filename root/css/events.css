@@ -25,13 +25,20 @@
 
 .contact-left-column,
 .contact-right-column {
+  
 }
 
 .schedule-container {
   padding: 0 0 2rem;red;
   display: flex;
   justify-content: flex-start;
+
 }
+
+.schedule-table {
+  box-shadow: 0px 3px 6px #00000029;
+}
+
 
 .schedule-table {
   width: 100%;
@@ -123,6 +130,7 @@ FORM STYLING
   border: none;
   border-radius: 10px;
   background-color: #f8f8f8;
+  box-shadow: 0px 3px 6px #00000029;
 }
 
 #contact-section h2,
@@ -130,6 +138,7 @@ FORM STYLING
 .form-container textarea,
 .message-button {
   color: #f8f8f8;
+  
 }
 
 .form-container label {
@@ -324,6 +333,14 @@ Media Queries
     padding: 0 1rem 2rem;
   }
 
+  #contact-section h2 {
+    padding: 4rem 0 2rem;
+  }
+
+  .contact-left-column {
+    padding: 0 0 5rem;
+  }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -343,13 +360,36 @@ Media Queries
   
 }
 
-  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column  {
+#innovation-schedule-section h2 {
+  padding: 4rem 0 2.5rem;
+}
+
+.schedule-container-bottom {
+  padding: 0 0 3rem;
+}
+
+  .schedule-left-column, .schedule-right-column,   {
     padding: 0 0 3rem;
+  }
+
+  #upper-schedule-left-column, #upper-schedule-right-column {
+    padding: 0 1rem 3rem;
   }
 
   .schedule-table {
     display: flex;
   }
+
+  
+  #contact-section h2 {
+    padding: 5rem 0 2rem;
+  }
+
+  .contact-left-column {
+    padding: 0 0 6rem;
+  }
+
+
 }
 
 @media only screen and (min-width: 1250px) {
@@ -398,7 +438,7 @@ Media Queries
   
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
@@ -490,6 +530,15 @@ Media Queries
   .upper-schedule-container, .schedule-container-bottom, .contact-heading-container, .form-container, .footer-master-container {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  
+  #contact-section h2 {
+    padding: 6rem 0 3.5rem;
+  }
+
+  .contact-left-column {
+    padding: 0 0 7rem;
   }
 
 }
