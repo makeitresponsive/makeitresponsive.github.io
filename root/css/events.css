@@ -1,12 +1,22 @@
 #innovation-type-section,
-#innovation-schedule-section {
+#innovation-schedule-section, #hero-display-section {
   width: 95%;
   margin: 0 auto;
 }
 
-#hero-display-section {
-  height: 300px;
-  background-color: blue;
+#hero-display-section img {
+  display: none;
+}
+
+.hero-image-container {
+  background-image: url(../images/events-hero-display.jpg);
+  background-repeat: norepeat, repeat;
+  background-size: cover;
+  background-position-y: 0rem;
+  max-width: 100%;
+  height: 40vh;
+  
+  
 }
 
 #innovation-schedule-section h2 {
@@ -282,10 +292,19 @@ Media Queries
 @media only screen and (min-width: 750px) {
   #innovation-type-section,
   #innovation-schedule-section,
-  .form-container,
+  .form-container, #hero-display-section,
   #contact-section h2 {
     width: 90%;
   }
+
+  
+.hero-image-container {
+  background-position-y: 0rem;
+  max-width: 100%;
+  background-position-y: -10rem;
+  height: 30vh;
+  
+}
 
   h2 {
     text-align: center;
@@ -300,17 +319,29 @@ Media Queries
     margin: 0 auto;
     text-align: center;
   }
+
+  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column  {
+    padding: 0 1rem 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 1000px) {
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
-  .form-container,
+  .form-container, #hero-display-section,
   #contact-section h2 {
     width: 80%;
     margin: 0 auto;
   }
+
+   
+.hero-image-container {
+  background-position-y: -15rem;
+  height: 25vh;
+  
+}
 
   .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column  {
     padding: 0 0 3rem;
@@ -326,9 +357,17 @@ Media Queries
   #innovation-schedule-section,
   #innovation-schedule-section h2,
   .form-container,
-  #contact-section h2 {
+  #contact-section h2, #hero-display-section, {
     width: 70%;
   }
+
+  
+.hero-image-container {
+  background-position-y: -15rem;
+  height: 30vh;
+  
+}
+
 
   #innovation-schedule-section h2 {
     padding: 3rem 0 2rem;
@@ -363,9 +402,10 @@ Media Queries
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
-  .form-container,
+  .form-container, #hero-display-section,
   #contact-section h2, .footer-master-container {
     width: 60%;
+    max-width: 1200px;
   }
 
   .footer-master-container {
