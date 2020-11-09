@@ -4,6 +4,7 @@
     <title>Inova</title>
     <link rel="stylesheet" type="text/css" href="css/master.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/events.css" />
     <!--<link rel="stylesheet" type="text/css" href="css/footer.css" />-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,12 +35,13 @@
       <section class="heroDisplay-container">
         <div class="heroDisplay-background">
           <img class="heroDisplay-image" src="images/heroDisplay.png" alt="" />
-          <div class="heroDisplay-tittel">
-            <h1>
-              At Inova we don’t solve your problems. We help you solve them
-              yourself.
-            </h1>
-          </div>
+
+        </div>
+        <div class="heroDisplay-tittel">
+          <h1>
+            At Inova we don’t solve your problems. We help you solve them
+            yourself.
+          </h1>
         </div>
       </section>
 
@@ -166,9 +168,48 @@
 
       <!--Full-width contact us-->
 
-      <div id="contact-us-full-width-container">
-        <h2>Tittel for contact us</h2>
+      <section id="contact-section">
+
+        <!--Button og text-area er i samme div til høyre, andre input er i en annen til venstre-->
+        <div class="contact-heading-container">
+        <h2>Interested in what we can do for your company? <br>Let's talk.</h2>
       </div>
+        <form action="page.html" method="GET" class="form-container">
+
+          <div class="contact-left-column">
+
+            <div class="name-container">
+              <label for="name">Name</label>
+              <input name="name" id="name" type="text" required>
+            </div>
+
+            <div class="email-container">
+              <label for="email">Email</label>
+              <input name="email" id="email" type="email" required>
+            </div>
+
+            <div class="company-container">
+              <label for="company">Company (optional)</label>
+              <input name="company" id="company" type="text">
+            </div>
+          </div>
+
+          <div class="contact-right-column">
+
+            <div class="message-container">
+              <label for="message">Message</label>
+              <textarea id="message" required ></textarea>
+
+              <div class="button-container">
+                <button class="message-button">Send message</button>
+              </div>
+          </div>
+
+          </div>
+
+
+        </form>
+      </section>
 
       <!-- Stories-->
       <section class="stories-main-container">
