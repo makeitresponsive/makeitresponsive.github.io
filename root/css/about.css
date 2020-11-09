@@ -33,6 +33,7 @@ p {
 .first-container-items {
   width: 95%;
   margin: 0 auto;
+  margin-top: 15px;
 }
 .first-container-picture-2 {
 
@@ -40,6 +41,11 @@ p {
 }
 .first-container-texts {
   width: 100%;
+  margin-top: 10px
+}
+.paragraph {
+  margin-top: 15px;
+  line-height: 1.4;
 }
 
 /*
@@ -56,6 +62,7 @@ p {
   width: 95%;
   margin: 0 auto;
   margin-bottom: 25px;
+  margin-top: 15px;
   /* font-size: 2.5rem; */
 }
 .steps-container {
@@ -110,11 +117,12 @@ p {
   margin-bottom: 15px;
 }
 .founders-text-2 {
-  font-size: 15px;
+  font-size: 12.5px;
   margin-bottom: 15px;
 }
 .founders-text-3 {
   font-size: 15px;
+  line-height: 1.4;
 }
 
 /* Last container */
@@ -126,13 +134,14 @@ p {
   width: 95%;
   margin: 0 auto;
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 .last-container-picture-2 {
 
   width: 100%;
 }
 .last-container-picture-1 {
-  
+  margin-top: 15px;
 }
 .last-container-texts {
   width: 100%;
@@ -141,7 +150,7 @@ p {
 
 
 .last-container {
-  
+
 }
 /*
 .last-container-texts h1 {
@@ -163,27 +172,25 @@ p {
     width: 90%;
     display: flex;
     flex-direction: row-reverse;
-    
+
   }
 
   .first-container-texts {
     width: 45%;
     padding-right: 1.5rem;
-    
+    margin-top: -10px;
+
   }
   .first-container-picture-1 {
     width: 55%;
     padding-left: 1rem;
-    
-    
-    
   }
   .first-container-texts {
     display: flex;
     flex-direction: column;
     width: 50%;
-    
-    
+
+
   }
   .steps-heading {
     margin-top: 100px;
@@ -198,18 +205,17 @@ p {
   }
   .steps-card {
     width: 45%;
-    margin: 0 10px;
-    margin-bottom: 100px;
+    margin: 0 15px;
+    margin-bottom: 40px;
   }
 
+/* RED BORDER */
   .steps-container-items{
     display: flex;
     border: solid red;
     justify-content: center;
   }
-
-  .steps-card:nth-child(2){
-    }
+/* RED BORDER */
 
   .steps-card p {
     margin: 0px 30px;
@@ -221,7 +227,7 @@ p {
     width: 90%;
   }
   .founders-text-2 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .founders-text-3 {
     font-size: 20px;
@@ -233,12 +239,14 @@ p {
   }
   .last-container-picture-1 {
     width: 50%;
+    margin-top: 0px;
   }
   .last-container-texts {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 75px;
+    margin-left: 20px;
+    margin-top: -10px;
   }
 }
 }
@@ -275,8 +283,22 @@ p {
   .founders-container-items {
     width: 70%;
   }
+  .steps-container-items {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .first-container-texts {
+    width: 40%;
+
+  }
+  .first-container-picture-1 {
+    width: 60%;
+  }
+
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
   h1 {
     font-size: 5rem;
     font-weight: 900;
@@ -311,9 +333,16 @@ p {
     font-size: 35px;
   }
   .founders-text-2 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .founders-text-3 {
     font-size: 25px;
+  }
+  .first-container-texts {
+    width: 55%;
+
+  }
+  .first-container-picture-1 {
+    width: 45%;
   }
 }

@@ -13,6 +13,7 @@
   height: auto;
   justify-content: center;
   align-items: center;
+
 }
 
 .heroDisplay-image {
@@ -112,7 +113,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-
 }
 
 .events-events {
@@ -122,17 +122,31 @@
   box-shadow: 3px 8px 9px #d3d3d3;
   margin-top: 6%;
   background-color: #f8f8f8;
-
 }
 
-.events-eventtypes-header{
+.events-eventtypes-header-half{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
-
+}
+.events-eventtypes-header-full{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.events-eventtypes-header-exclusive{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
 .events-images {
   max-width: 100%;
@@ -152,11 +166,10 @@
   display: flex;
   width: 90%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
   margin: 0 auto;
   margin-bottom: 4%;
-
 }
 
 .events-eventtypes-tittel2{
@@ -171,22 +184,187 @@
 
 }
 
-
-.events-eventtypes-bookIcon{
+.events-bookIcon-container{
   display: flex;
-  padding-top: 3%;
-  width: 25%;
-
+  width: 40%;
+  background-color: #3d5a80;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 3%;
 }
-.eventsIcon {
+
+.events-bookIcon-tekst {
+  display: flex;
+  color: white;
+  margin: 2%;
+}
+.events-bookIcon-tekst p {
+  font-size: 2rem;
+}
+
+/* Stories */
+.stories-main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+}
+
+.stories-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+}
+.stories-stories {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.stories-story {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  box-shadow: 0px 6px 9px #d3d3d3;
+  background-color: #f8f8f8;
+  border-radius: 10px 10px 10px 10px;
+}
+.stories-image {
   width: 100%;
   height: auto;
+  border-radius: 10px 10px 0px 0px;
 }
+
+.stories-container-description {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.stories-story-tittel {
+  line-height: 1.6;
+  padding-bottom: 1%;
+}
+
+.stories-story-text {
+  line-height: 1.6;
+}
+
+@media only screen and (min-width: 600px) {
+  .heroDisplay-tittel{
+    width: 95%;
+
+  }
+  .aboutUs-container {
+    width: 95%;
+  }
+
+  .events-container {
+    width: 95%;
+  }
+  .stories-main-container {
+    width: 95%;
+  }
+  @media only screen and (min-width: 750px) {
+    .heroDisplay-tittel{
+      width: 90%;
+    }
+    .aboutUs-container {
+      width: 90%;
+      /*height: 285px;*/
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .aboutUs-info-small {
+      width: 30%;
+      height: 100%;
+
+    }
+    .aboutUs-info-large {
+      width: 67%;
+      height: 100%;
+    }
+
+    .events-container {
+      width: 90%;
+    }
+
+    .events-events {
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 4%;
+
+    }
+    .events-container-tittel {
+      width: 60%;
+    }
+    .events-eventtypes-header-half{
+      width: 40%;
+      background-image: url(../images/halfdaySeminar.png);
+      background-repeat: norepeat, repeat;
+      background-size: cover;
+      background-position-y: 0rem;
+      height: 20vh;
+    }
+    .events-eventtypes-header-full{
+      width: 40%;
+      background-image: url(../images/fulldaySeminar.png);
+      background-repeat: norepeat, repeat;
+      background-size: cover;
+      background-position-x: -4rem;
+      height: 20vh;
+    }
+    .events-eventtypes-header-exclusive{
+      width: 40%;
+      background-image: url(../images/exclusiveSeminar.png);
+      background-repeat: norepeat, repeat;
+      background-size: cover;
+      background-position-x: -7rem;
+      height: 20vh;
+    }
+    .events-container-description {
+      margin: 3%;
+    }
+    .events-images {
+      visibility: hidden;
+    }
+    .events-eventtypes-tittel {
+      visibility: hidden;
+    }
+    .events-eventtypes-tittel2 {
+      visibility: visible;
+    }
+    .events-eventtypes-description {
+      line-height: 3.0;
+    }
+
+    .stories-main-container {
+      width: 90%;
+    }
+
+    .stories-stories {
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+    .stories-story {
+      width: 30%;
+    }
+  }
 
 @media only screen and (min-width: 1000px) {
   .heroDisplay-tittel{
     width: 80%;
-
   }
   .aboutUs-container {
     width: 80%;
@@ -206,8 +384,11 @@
     height: 100%;
   }
 
-  .events-events {
+  .events-container {
     width: 80%;
+  }
+
+  .events-events {
     flex-direction: row;
     margin: 0 auto;
     margin-top: 4%;
@@ -216,15 +397,35 @@
   .events-container-tittel {
     width: 60%;
   }
-  .events-eventtypes-header{
+  .events-eventtypes-header-half{
     width: 40%;
+    background-image: url(../images/halfdaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-y: 0rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-full{
+    width: 40%;
+    background-image: url(../images/fulldaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -4rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-exclusive{
+    width: 40%;
+    background-image: url(../images/exclusiveSeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -7rem;
+    height: 20vh;
   }
   .events-container-description {
     margin: 3%;
   }
   .events-images {
-    max-height: 100%;
-    width: auto;
+    visibility: hidden;
   }
   .events-eventtypes-tittel {
     visibility: hidden;
@@ -234,5 +435,201 @@
   }
   .events-eventtypes-description {
     line-height: 3.0;
+  }
+
+  .stories-main-container {
+    width: 80%;
+  }
+
+  .stories-stories {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .stories-story {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .heroDisplay-tittel{
+    width: 70%;
+
+  }
+  .aboutUs-container {
+    width: 70%;
+    height: 285px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .aboutUs-info-small {
+    width: 30%;
+    height: 100%;
+
+  }
+  .aboutUs-info-large {
+    width: 67%;
+    height: 100%;
+  }
+
+  .events-container {
+    width: 70%;
+  }
+
+  .events-events {
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 4%;
+
+  }
+  .events-container-tittel {
+    width: 60%;
+  }
+  .events-eventtypes-header-half{
+    width: 40%;
+    background-image: url(../images/halfdaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-y: 0rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-full{
+    width: 40%;
+    background-image: url(../images/fulldaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -4rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-exclusive{
+    width: 40%;
+    background-image: url(../images/exclusiveSeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -7rem;
+    height: 20vh;
+  }
+  .events-container-description {
+    margin: 3%;
+  }
+  .events-images {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel2 {
+    visibility: visible;
+  }
+  .events-eventtypes-description {
+    line-height: 3.0;
+  }
+
+  .stories-main-container {
+    width: 70%;
+  }
+
+  .stories-stories {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .stories-story {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .heroDisplay-tittel{
+    width: 60%;
+    max-width: 1400px;
+
+  }
+  .aboutUs-container {
+    width: 60%;
+    max-width: 1400px;
+    height: 285px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .aboutUs-info-small {
+    width: 30%;
+    height: 100%;
+
+  }
+  .aboutUs-info-large {
+    width: 67%;
+    height: 100%;
+  }
+
+  .events-container {
+    width: 60%;
+    max-width: 1400px;
+  }
+
+  .events-events {
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 4%;
+
+  }
+  .events-container-tittel {
+    width: 60%;
+  }
+  .events-eventtypes-header-half{
+    width: 40%;
+    background-image: url(../images/halfdaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-y: 0rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-full{
+    width: 40%;
+    background-image: url(../images/fulldaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -4rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-exclusive{
+    width: 40%;
+    background-image: url(../images/exclusiveSeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -7rem;
+    height: 20vh;
+  }
+  .events-container-description {
+    margin: 3%;
+  }
+  .events-images {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel2 {
+    visibility: visible;
+  }
+  .events-eventtypes-description {
+    line-height: 3.0;
+  }
+
+  .stories-main-container {
+    width: 60%;
+    max-width: 1400px;
+  }
+
+  .stories-stories {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .stories-story {
+    width: 30%;
   }
 }
