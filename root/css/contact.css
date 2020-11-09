@@ -96,6 +96,10 @@ form section
   box-shadow: 0px 3px 6px #00000029;
 }
 
+#form-section textarea {
+  resize: none;
+}
+
 #form-section input,
 .message-button {
   height: 5rem;
@@ -140,11 +144,11 @@ Media queiries
   }
 
   #intro-section h1 {
-    padding: 4rem 0 1rem;
+    padding: 5rem 0 1rem;
   }
 
   #intro-section p {
-    padding: 0 0 3rem;
+    padding: 0 0 4rem;
   }
 
   #form-section {

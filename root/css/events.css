@@ -37,6 +37,11 @@
 
 .schedule-table {
   box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+}
+
+.schedule-left-column, .schedule-right-column{
+  padding: 0 0 2rem;
 }
 
 
@@ -50,6 +55,10 @@
   
 }
 
+.schedule-table :last-child >:last-child > td {
+  padding: 0 0 3.5rem;
+}
+
 .upper-schedule-container>.schedule-container{
   
   display: flex;
@@ -59,7 +68,7 @@
 .schedule-table th,
 .schedule-table td,
 label,
-input {
+input, textarea {
   font-size: 1.5rem;
 }
 
@@ -109,6 +118,12 @@ FORM STYLING
   width: 95%;
   margin: 0 auto;
   padding: 2rem 0;
+}
+
+#contact-section textarea {
+  color: black;
+  padding: 1rem 1rem 0;
+
 }
 
 .name-container,
@@ -169,6 +184,20 @@ FORM STYLING
   background-color: #3d5a80;
 }
 
+.contact-left-column, .contact-right-column {
+  
+  padding-bottom: 0;
+  
+}
+
+.company-container {
+  padding-bottom: 0;
+}
+
+
+
+
+
 /* Footer styling
 
 
@@ -221,6 +250,13 @@ footer a {
   width: 95%;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
 
 /* 
 
@@ -306,7 +342,6 @@ Media Queries
     width: 90%;
   }
 
-  
 .hero-image-container {
   background-position-y: 0rem;
   max-width: 100%;
@@ -314,6 +349,9 @@ Media Queries
   height: 30vh;
   
 }
+
+  
+
 
   h2 {
     text-align: center;
@@ -329,16 +367,21 @@ Media Queries
     text-align: center;
   }
 
-  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column  {
+  .schedule-left-column, .schedule-right-column  {
+    padding: 0 1rem 3rem;
+  }
+
+  #upper-schedule-left-column, #upper-schedule-right-column  {
     padding: 0 1rem 2rem;
   }
+
 
   #contact-section h2 {
     padding: 4rem 0 2rem;
   }
 
-  .contact-left-column {
-    padding: 0 0 5rem;
+  .button-container {
+    margin-top: .85rem
   }
 
 }
@@ -368,10 +411,6 @@ Media Queries
   padding: 0 0 3rem;
 }
 
-  .schedule-left-column, .schedule-right-column,   {
-    padding: 0 0 3rem;
-  }
-
   #upper-schedule-left-column, #upper-schedule-right-column {
     padding: 0 1rem 3rem;
   }
@@ -387,7 +426,18 @@ Media Queries
 
   .contact-left-column {
     padding: 0 0 6rem;
+    padding-right: 1.5rem;
   }
+
+  .contact-right-column {
+    padding-lefT: 1.5rem;
+  }
+
+  
+  .button-container {
+    margin-top: .95rem
+  }
+
 
 
 }
@@ -409,9 +459,31 @@ Media Queries
 }
 
 
+.schedule-table :last-child >:last-child > td {
+  padding: 0 0 4rem;
+}
+
+
   #innovation-schedule-section h2 {
     padding: 3rem 0 2rem;
   }
+
+  
+  #upper-schedule-right-column {
+    padding-left: 2rem;
+
+  }
+
+  #upper-schedule-left-column {
+    padding-right: 2rem;
+  } 
+
+  #contact-section input {
+   
+    padding: .35rem 1.25rem 0;
+  
+  }
+
 
   .form-container input {
     height: 6rem;
@@ -431,10 +503,28 @@ Media Queries
     font-size: 2rem;
   }
 
-  
-  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column {
-    padding: 0 0 4rem;
+  .schedule-left-column {
+    padding-right: 2rem;
   }
+
+  .schedule-right-column {
+    padding-left: 2rem;
+  }
+
+
+  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column {
+    padding-bottom: 4rem;
+  }
+
+  
+  .button-container {
+    margin-top: 1.95rem
+  }
+
+  .message-button {
+    height: 6rem;
+  }
+
   
 }
 
@@ -451,6 +541,13 @@ Media Queries
   .footer-master-container {
     margin: 0 auto;
   }
+
+  
+.schedule-table :last-child >:last-child > td {
+  padding: 0 0 4.5rem;
+}
+
+
 
   #table-sub-heading {
     font-size: 2.5rem;
@@ -541,7 +638,42 @@ Media Queries
     padding: 0 0 7rem;
   }
 
+   
+  .button-container {
+    margin-top: .85rem
+  }
+
+
 }
+
+
+@media only screen and (min-width: 1525px){
+  #contact-section input {
+    height: 7rem;
+  }
+  #contact-section textarea{
+    height: 19.5rem;
+  }
+  .button-container {
+    margin-top: -.5rem;
+  }
+  .message-button {
+    height: 7rem;
+  }
+  .contact-left-column {
+    padding-right: 2rem;
+  }
+  .contact-right-column{
+    padding-left: 2rem;
+  }
+}
+
+
+
+
+
+
+
 
 /*
 
