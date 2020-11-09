@@ -186,7 +186,7 @@ nav header {
 
 @media only screen and (min-width: 1440px) {
   nav {
-    width: 80%;
+    width: 60%;
     max-width: 1400px;
   }
   .nav-link-icon-container {

@@ -273,26 +273,98 @@
   .stories-main-container {
     width: 95%;
   }
-@media only screen and (min-width: 750px) {
-  .heroDisplay-tittel{
-    width: 90%;
-  }
+  @media only screen and (min-width: 750px) {
+    .heroDisplay-tittel{
+      width: 90%;
+    }
+    .aboutUs-container {
+      width: 90%;
+      /*height: 285px;*/
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
 
-  .aboutUs-container {
-    width: 90%;
-  }
+    .aboutUs-info-small {
+      width: 30%;
+      height: 100%;
 
-  .events-container {
-    width: 90%;
-  }
-  .stories-main-container {
-    width: 90%;
+    }
+    .aboutUs-info-large {
+      width: 67%;
+      height: 100%;
+    }
+
+    .events-container {
+      width: 90%;
+    }
+
+    .events-events {
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 4%;
+
+    }
+    .events-container-tittel {
+      width: 60%;
+    }
+    .events-eventtypes-header-half{
+      width: 40%;
+      background-image: url(../images/halfdaySeminar.png);
+      background-repeat: norepeat, repeat;
+      background-size: cover;
+      background-position-y: 0rem;
+      height: 20vh;
+    }
+    .events-eventtypes-header-full{
+      width: 40%;
+      background-image: url(../images/fulldaySeminar.png);
+      background-repeat: norepeat, repeat;
+      background-size: cover;
+      background-position-x: -4rem;
+      height: 20vh;
+    }
+    .events-eventtypes-header-exclusive{
+      width: 40%;
+      background-image: url(../images/exclusiveSeminar.png);
+      background-repeat: norepeat, repeat;
+      background-size: cover;
+      background-position-x: -7rem;
+      height: 20vh;
+    }
+    .events-container-description {
+      margin: 3%;
+    }
+    .events-images {
+      visibility: hidden;
+    }
+    .events-eventtypes-tittel {
+      visibility: hidden;
+    }
+    .events-eventtypes-tittel2 {
+      visibility: visible;
+    }
+    .events-eventtypes-description {
+      line-height: 3.0;
+    }
+
+    .stories-main-container {
+      width: 90%;
+    }
+
+    .stories-stories {
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+    .stories-story {
+      width: 30%;
+    }
   }
 
 @media only screen and (min-width: 1000px) {
   .heroDisplay-tittel{
     width: 80%;
-
   }
   .aboutUs-container {
     width: 80%;
