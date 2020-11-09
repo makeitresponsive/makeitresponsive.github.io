@@ -121,15 +121,76 @@ nav header {
 /* NavBar Slutt */
 
 /* NavBar Media queries */
+@media only screen and (min-width: 600px) {
+  nav {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  nav {
+    width: 90%;
+  }
+  .nav-link-icon-container {
+    flex-direction: row-reverse;
+  }
+
+  .nav-Navigation-Link{
+    visibility: visible;
+  }
+
+  .nav-Icon {
+    visibility: hidden;
+  }
+}
 
 @media only screen and (min-width: 1000px) {
   nav {
     width: 80%;
   }
+
+  .nav-link-icon-container {
+    flex-direction: row-reverse;
+
+  }
+  .nav-Navigation-Link{
+    visibility: visible;
+  }
+  .nav-Navigation-Link a{
+    font-size: 2rem;
+  }
+  .nav-Icon {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  nav {
+    width: 70%;
+  }
   .nav-link-icon-container {
     flex-direction: row-reverse;
 
 
+  }
+  .nav-Navigation-Link{
+    visibility: visible;
+  }
+  .nav-Navigation-Link a{
+    font-size: 2rem;
+  }
+  .nav-Icon {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  nav {
+    width: 80%;
+    max-width: 1400px;
+  }
+  .nav-link-icon-container {
+    flex-direction: row-reverse;
   }
   .nav-Navigation-Link{
     visibility: visible;

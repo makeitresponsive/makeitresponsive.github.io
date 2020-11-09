@@ -190,6 +190,7 @@
   background-color: #3d5a80;
   justify-content: center;
   border-radius: 10px;
+  margin: 3%;
 }
 
 .events-bookIcon-tekst {
@@ -257,9 +258,36 @@
   line-height: 1.6;
 }
 
+@media only screen and (min-width: 600px) {
+  .heroDisplay-tittel{
+    width: 95%;
 
+  }
+  .aboutUs-container {
+    width: 95%;
+  }
 
+  .events-container {
+    width: 95%;
+  }
+  .stories-main-container {
+    width: 95%;
+  }
+@media only screen and (min-width: 750px) {
+  .heroDisplay-tittel{
+    width: 90%;
+  }
 
+  .aboutUs-container {
+    width: 90%;
+  }
+
+  .events-container {
+    width: 90%;
+  }
+  .stories-main-container {
+    width: 90%;
+  }
 
 @media only screen and (min-width: 1000px) {
   .heroDisplay-tittel{
@@ -339,6 +367,189 @@
 
   .stories-main-container {
     width: 80%;
+  }
+
+  .stories-stories {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .stories-story {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .heroDisplay-tittel{
+    width: 70%;
+
+  }
+  .aboutUs-container {
+    width: 70%;
+    height: 285px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .aboutUs-info-small {
+    width: 30%;
+    height: 100%;
+
+  }
+  .aboutUs-info-large {
+    width: 67%;
+    height: 100%;
+  }
+
+  .events-container {
+    width: 70%;
+  }
+
+  .events-events {
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 4%;
+
+  }
+  .events-container-tittel {
+    width: 60%;
+  }
+  .events-eventtypes-header-half{
+    width: 40%;
+    background-image: url(../images/halfdaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-y: 0rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-full{
+    width: 40%;
+    background-image: url(../images/fulldaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -4rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-exclusive{
+    width: 40%;
+    background-image: url(../images/exclusiveSeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -7rem;
+    height: 20vh;
+  }
+  .events-container-description {
+    margin: 3%;
+  }
+  .events-images {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel2 {
+    visibility: visible;
+  }
+  .events-eventtypes-description {
+    line-height: 3.0;
+  }
+
+  .stories-main-container {
+    width: 70%;
+  }
+
+  .stories-stories {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .stories-story {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .heroDisplay-tittel{
+    width: 60%;
+    max-width: 1400px;
+
+  }
+  .aboutUs-container {
+    width: 60%;
+    max-width: 1400px;
+    height: 285px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .aboutUs-info-small {
+    width: 30%;
+    height: 100%;
+
+  }
+  .aboutUs-info-large {
+    width: 67%;
+    height: 100%;
+  }
+
+  .events-container {
+    width: 60%;
+    max-width: 1400px;
+  }
+
+  .events-events {
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 4%;
+
+  }
+  .events-container-tittel {
+    width: 60%;
+  }
+  .events-eventtypes-header-half{
+    width: 40%;
+    background-image: url(../images/halfdaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-y: 0rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-full{
+    width: 40%;
+    background-image: url(../images/fulldaySeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -4rem;
+    height: 20vh;
+  }
+  .events-eventtypes-header-exclusive{
+    width: 40%;
+    background-image: url(../images/exclusiveSeminar.png);
+    background-repeat: norepeat, repeat;
+    background-size: cover;
+    background-position-x: -7rem;
+    height: 20vh;
+  }
+  .events-container-description {
+    margin: 3%;
+  }
+  .events-images {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel {
+    visibility: hidden;
+  }
+  .events-eventtypes-tittel2 {
+    visibility: visible;
+  }
+  .events-eventtypes-description {
+    line-height: 3.0;
+  }
+
+  .stories-main-container {
+    width: 60%;
+    max-width: 1400px;
   }
 
   .stories-stories {
