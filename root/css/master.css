@@ -11,6 +11,7 @@ white = #FFFEFB
 html {
   position: relative;
   min-height: 100%;
+  background-color: #fffefb;
 }
 html,
 button,
@@ -186,7 +187,7 @@ nav header {
 @media only screen and (min-width: 1440px) {
   nav {
     width: 60%;
-    max-width: 1400px;
+    max-width: 1200px;
   }
   .nav-link-icon-container {
     flex-direction: row-reverse;

@@ -96,6 +96,12 @@ form section
   box-shadow: 0px 3px 6px #00000029;
 }
 
+#form-section input,
+#form-section textarea {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
 #form-section textarea {
   resize: none;
 }
