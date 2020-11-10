@@ -1,10 +1,8 @@
-
 .heroDisplay-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 .heroDisplay-background {
@@ -25,12 +23,11 @@
   filter: brightness(70%);
 }
 
-
 .heroDisplay-tittel {
   position: absolute;
   width: 95%;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
   color: #f8f8f8;
 }
 
@@ -43,24 +40,21 @@
   align-items: center;
   margin-top: 4%;
   margin-bottom: 4%;
-
-
 }
 
 .aboutUs-info-small {
   display: flex;
   width: 100%;
-  background-color: #EE6C4D;
+  background-color: #ee6c4d;
   box-shadow: 0px 3px 6px #00000029;
   margin-bottom: 4%;
-
 }
 
 .aboutUs-info-small-text {
   margin: 4%;
   font-size: 2rem;
   line-height: 1.6;
-  color: #F8F8F8;
+  color: #f8f8f8;
 }
 
 .aboutUs-info-large {
@@ -116,7 +110,7 @@
   font-size: 1.6rem;
 }
 
-.events-container-eventtypes{
+.events-container-eventtypes {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -132,7 +126,7 @@
   background-color: #f8f8f8;
 }
 
-.events-eventtypes-header-half{
+.events-eventtypes-header-half {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -140,7 +134,7 @@
   width: 100%;
   height: auto;
 }
-.events-eventtypes-header-full{
+.events-eventtypes-header-full {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -148,7 +142,7 @@
   width: 100%;
   height: auto;
 }
-.events-eventtypes-header-exclusive{
+.events-eventtypes-header-exclusive {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -163,18 +157,18 @@
   border-radius: 10px 10px 0px 0px;
 }
 
-.events-eventtypes-tittel{
+.events-eventtypes-tittel {
   position: absolute;
   width: 60%;
   left: 40%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
   color: #f8f8f8;
 }
 .events-eventtypes-tittel h3 {
   font-size: 2rem;
 }
 
-.events-container-description{
+.events-container-description {
   display: flex;
   width: 90%;
   flex-direction: column;
@@ -184,19 +178,17 @@
   margin-bottom: 4%;
 }
 
-.events-eventtypes-tittel2{
+.events-eventtypes-tittel2 {
   visibility: hidden;
   padding-bottom: 2%;
-
 }
 
-.events-eventtypes-description{
+.events-eventtypes-description {
   display: flex;
   line-height: 1.6;
-
 }
 
-.events-bookIcon-container{
+.events-bookIcon-container {
   display: flex;
   width: 40%;
   background-color: #3d5a80;
@@ -275,9 +267,8 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .heroDisplay-tittel{
+  .heroDisplay-tittel {
     width: 95%;
-
   }
   .aboutUs-container {
     width: 95%;
@@ -314,7 +305,7 @@
   .table-sub-heading {
   }
 
-  .schedule-left-column,  {
+  .schedule-left-column {
     padding: 0 0 2rem;
   }
 
@@ -323,12 +314,11 @@
   }
 }
 @media only screen and (min-width: 750px) {
-  .heroDisplay-tittel{
+  .heroDisplay-tittel {
     width: 90%;
   }
-  .heroDisplay-tittel h1{
+  .heroDisplay-tittel h1 {
     font-size: 3rem;
-
   }
   .aboutUs-container {
     width: 90%;
@@ -339,13 +329,18 @@
   }
 
   .aboutUs-info-small {
+<<<<<<< HEAD
+    width: 40%;
+    height: 275px;
+
+=======
     width: 30%;
     height: 350px;
-
+>>>>>>> 050c2b19931976fdfff30c2e06b4973665f04e91
   }
   .aboutUs-info-large {
-    width: 67%;
-    height: 350px;
+    width: 57%;
+    height: 275px;
   }
 
   .events-container {
@@ -362,7 +357,7 @@
     width: 60%;
   }
 
-  .events-eventtypes-header-half{
+  .events-eventtypes-header-half {
     width: 40%;
     background-image: url(../images/halfdaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -372,7 +367,7 @@
     border-radius: 10px 0px 0px 10px;
   }
 
-  .events-eventtypes-header-full{
+  .events-eventtypes-header-full {
     width: 40%;
     background-image: url(../images/fulldaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -382,7 +377,7 @@
     border-radius: 10px 0px 0px 10px;
   }
 
-  .events-eventtypes-header-exclusive{
+  .events-eventtypes-header-exclusive {
     width: 40%;
     background-image: url(../images/exclusiveSeminar.png);
     background-repeat: norepeat, repeat;
@@ -406,7 +401,7 @@
     visibility: visible;
   }
   .events-eventtypes-description {
-    line-height: 3.0;
+    line-height: 3;
   }
 
   .stories-main-container {
@@ -433,17 +428,16 @@
     padding: 4rem 0 2rem;
   }
   .button-container {
-    margin-top: .85rem
+    margin-top: 0.85rem;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .heroDisplay-tittel{
+  .heroDisplay-tittel {
     width: 80%;
   }
-  .heroDisplay-tittel h1{
+  .heroDisplay-tittel h1 {
     font-size: 3.5rem;
-
   }
   .aboutUs-container {
     width: 80%;
@@ -454,13 +448,18 @@
   }
 
   .aboutUs-info-small {
+<<<<<<< HEAD
+    width: 40%;
+    height: 250px;
+
+=======
     width: 30%;
     height: 100%;
-
+>>>>>>> 050c2b19931976fdfff30c2e06b4973665f04e91
   }
   .aboutUs-info-large {
-    width: 67%;
-    height: 100%;
+    width: 57%;
+    height: 250px;
   }
 
   .events-container {
@@ -471,12 +470,11 @@
     flex-direction: row;
     margin: 0 auto;
     margin-top: 4%;
-
   }
   .events-container-tittel {
     width: 60%;
   }
-  .events-eventtypes-header-half{
+  .events-eventtypes-header-half {
     width: 40%;
     background-image: url(../images/halfdaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -485,7 +483,7 @@
     height: 20vh;
     border-radius: 10px 0px 0px 10px;
   }
-  .events-eventtypes-header-full{
+  .events-eventtypes-header-full {
     width: 40%;
     background-image: url(../images/fulldaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -494,7 +492,7 @@
     height: 20vh;
     border-radius: 10px 0px 0px 10px;
   }
-  .events-eventtypes-header-exclusive{
+  .events-eventtypes-header-exclusive {
     width: 40%;
     background-image: url(../images/exclusiveSeminar.png);
     background-repeat: norepeat, repeat;
@@ -517,7 +515,7 @@
     visibility: visible;
   }
   .events-eventtypes-description {
-    line-height: 3.0;
+    line-height: 3;
   }
 
   .stories-main-container {
@@ -546,24 +544,20 @@
   }
 
   .contact-right-column {
-    padding-lefT: 1.5rem;
+    padding-left: 1.5rem;
   }
-
 
   .button-container {
-    margin-top: .95rem
+    margin-top: 0.95rem;
   }
-
 }
 
 @media only screen and (min-width: 1250px) {
-  .heroDisplay-tittel{
+  .heroDisplay-tittel {
     width: 70%;
-
   }
-  .heroDisplay-tittel h1{
+  .heroDisplay-tittel h1 {
     font-size: 3.5rem;
-
   }
   .aboutUs-container {
     width: 70%;
@@ -574,13 +568,18 @@
   }
 
   .aboutUs-info-small {
+<<<<<<< HEAD
+    width: 40%;
+    height: 220px;
+
+=======
     width: 30%;
     height: 100%;
-
+>>>>>>> 050c2b19931976fdfff30c2e06b4973665f04e91
   }
   .aboutUs-info-large {
-    width: 67%;
-    height: 100%;
+    width: 57%;
+    height: 220px;
   }
 
   .events-container {
@@ -591,12 +590,11 @@
     flex-direction: row;
     margin: 0 auto;
     margin-top: 4%;
-
   }
   .events-container-tittel {
     width: 60%;
   }
-  .events-eventtypes-header-half{
+  .events-eventtypes-header-half {
     width: 40%;
     background-image: url(../images/halfdaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -605,7 +603,7 @@
     height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
-  .events-eventtypes-header-full{
+  .events-eventtypes-header-full {
     width: 40%;
     background-image: url(../images/fulldaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -614,7 +612,7 @@
     height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
-  .events-eventtypes-header-exclusive{
+  .events-eventtypes-header-exclusive {
     width: 40%;
     background-image: url(../images/exclusiveSeminar.png);
     background-repeat: norepeat, repeat;
@@ -637,7 +635,7 @@
     visibility: visible;
   }
   .events-eventtypes-description {
-    line-height: 3.0;
+    line-height: 3;
   }
 
   .stories-main-container {
@@ -668,7 +666,7 @@
     font-size: 2rem;
   }
   .button-container {
-    margin-top: 1.95rem
+    margin-top: 1.95rem;
   }
 
   .message-button {
@@ -676,7 +674,7 @@
   }
 }
 @media only screen and (min-width: 1440px) {
-  .heroDisplay-tittel{
+  .heroDisplay-tittel {
     width: 60%;
     max-width: 1200px;
   }
@@ -695,13 +693,18 @@
   }
 
   .aboutUs-info-small {
+<<<<<<< HEAD
+    width: 40%;
+    height: 220px;
+
+=======
     width: 30%;
     height: 100%;
-
+>>>>>>> 050c2b19931976fdfff30c2e06b4973665f04e91
   }
   .aboutUs-info-large {
-    width: 67%;
-    height: 100%;
+    width: 57%;
+    height: 220px;
   }
 
   .events-container {
@@ -713,12 +716,11 @@
     flex-direction: row;
     margin: 0 auto;
     margin-top: 4%;
-
   }
   .events-container-tittel {
     width: 60%;
   }
-  .events-eventtypes-header-half{
+  .events-eventtypes-header-half {
     width: 40%;
     background-image: url(../images/halfdaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -727,7 +729,7 @@
     height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
-  .events-eventtypes-header-full{
+  .events-eventtypes-header-full {
     width: 40%;
     background-image: url(../images/fulldaySeminar.png);
     background-repeat: norepeat, repeat;
@@ -736,7 +738,7 @@
     height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
-  .events-eventtypes-header-exclusive{
+  .events-eventtypes-header-exclusive {
     width: 40%;
     background-image: url(../images/exclusiveSeminar.png);
     background-repeat: norepeat, repeat;
@@ -759,7 +761,7 @@
     visibility: visible;
   }
   .events-eventtypes-description {
-    line-height: 3.0;
+    line-height: 3;
   }
 
   .stories-main-container {
@@ -779,13 +781,10 @@
     width: 60%;
     max-width: 1200px;
     font-size: 3.5rem;
-
   }
   #contact-section h2 {
-
     width: 100%;
   }
-
 
   .contact-left-column {
     padding-left: 0;
@@ -824,21 +823,20 @@
     padding: 0 0 7rem;
   }
 
-
   .button-container {
-    margin-top: .85rem
+    margin-top: 0.85rem;
   }
 }
 
-@media only screen and (min-width: 1525px){
+@media only screen and (min-width: 1525px) {
   #contact-section input {
     height: 7rem;
   }
-  #contact-section textarea{
+  #contact-section textarea {
     height: 19.5rem;
   }
   .button-container {
-    margin-top: -.5rem;
+    margin-top: -0.5rem;
   }
   .message-button {
     height: 7rem;
@@ -846,7 +844,7 @@
   .contact-left-column {
     padding-right: 2rem;
   }
-  .contact-right-column{
+  .contact-right-column {
     padding-left: 2rem;
   }
 }
