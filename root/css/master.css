@@ -435,7 +435,8 @@ font media queries
 
 */
 
-.footer-master-container {
+.footer-master-container,
+.footer-master-container a {
   display: flex;
   flex-direction: column;
 }
