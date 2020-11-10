@@ -1,3 +1,8 @@
+.footer-text-container,
+.footer-text-container a {
+  color: #f8f8f8;
+}
+
 .heroDisplay-container {
   display: flex;
   width: 100%;
@@ -176,6 +181,7 @@
   align-items: flex-start;
   margin: 0 auto;
   margin-bottom: 4%;
+  border: none;
 }
 
 .events-eventtypes-tittel2 {

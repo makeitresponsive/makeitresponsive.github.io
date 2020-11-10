@@ -206,11 +206,6 @@ nav a:nth-child(2) {
 
 */
 
-footer {
-  background-color: #fffefb;
-  color: #ee6c4d;
-}
-
 .footer-master-container {
   display: flex;
   flex-direction: column;

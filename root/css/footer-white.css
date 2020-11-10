@@ -1,0 +1,10 @@
+footer {
+  background-color: #f8f8f8;
+  color: #ee6c4d;
+}
+
+.footer-text-container p,
+.footer-text-container a,
+.footer-text-container h2 {
+  color: #ee6c4d;
+}

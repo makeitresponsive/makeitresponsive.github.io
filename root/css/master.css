@@ -8,6 +8,17 @@ white = #FFFEFB
 
 */
 
+/* Mbile
+
+
+nav
+
+
+styling
+
+
+*/
+
 html {
   position: relative;
   min-height: 100%;
@@ -84,7 +95,6 @@ body {
 .nav-width-container {
   display: flex;
   background-color: white;
-  height: 125px;
 
   justify-content: space-between;
   align-items: center;
@@ -101,6 +111,7 @@ nav a {
 nav header {
   color: #ee6c4d;
   font-size: 4rem;
+  padding: 2rem 0 1rem;
 }
 .nav-link-icon-container {
   display: flex;
@@ -111,12 +122,28 @@ nav header {
   height: 50%;
 }
 
-.nav-Navigation-Link {
-  visibility: hidden;
+.nav-width-container {
   display: flex;
+  flex-direction: column;
+}
+
+.nav-Navigation-Link {
+  display: none;
+
   justify-content: space-between;
   align-items: baseline;
-  width: 60%;
+  width: 100%;
+  border: solid red;
+  flex-direction: column;
+}
+
+nav {
+  z-index: -1;
+}
+
+nav a {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .nav-Icon {
@@ -137,7 +164,6 @@ nav a:hover {
 /* NavBar Media queries */
 @media only screen and (min-width: 600px) {
   .nav-width-container {
-    width: 95%;
     margin: 0 auto;
   }
 }
@@ -151,7 +177,11 @@ nav a:hover {
   }
 
   .nav-Navigation-Link {
-    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 60%;
+    flex-direction: row;
   }
 
   .nav-Icon {
@@ -404,11 +434,6 @@ font media queries
 
 
 */
-
-footer {
-  background-color: #ee6c4d;
-  color: #f8f8f8;
-}
 
 .footer-master-container {
   display: flex;
