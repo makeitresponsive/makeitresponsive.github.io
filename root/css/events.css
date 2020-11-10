@@ -273,7 +273,7 @@ Media Queries
 
 
 */
-@media only screen and (min-width: 600px) and (max-width: 749px) {
+@media only screen and (min-width: 600px) {
   .upper-schedule-container {
     display: flex;
     justify-content: space-between;
@@ -342,7 +342,7 @@ Media Queries
   }
 }
 
-@media only screen and (min-width: 750px) and (max-width: 999px) {
+@media only screen and (min-width: 750px) {
   #innovation-type-section,
   #innovation-schedule-section,
   .form-container, #hero-display-section,
@@ -394,7 +394,7 @@ Media Queries
 
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1249px){
+@media only screen and (min-width: 1000px) {
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
@@ -450,7 +450,7 @@ Media Queries
 
 }
 
-@media only screen and (min-width: 1250px) and (max-width: 1439px) {
+@media only screen and (min-width: 1250px) {
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
