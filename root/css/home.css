@@ -165,8 +165,8 @@
 
 .events-eventtypes-tittel{
   position: absolute;
-  width: 95%;
-  left: 60%;
+  width: 60%;
+  left: 40%;
   transform: translate(-50%,0);
   color: #f8f8f8;
 }
