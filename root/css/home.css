@@ -203,9 +203,14 @@
   display: flex;
   color: white;
   margin: 2%;
+
 }
-.events-bookIcon-tekst p {
+.events-bookIcon-tekst button {
   font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  background-color: inherit;
+  border: none;
 }
 
 /* Stories */
