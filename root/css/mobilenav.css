@@ -8,6 +8,7 @@ nav {
   border: solid blue;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav a {
