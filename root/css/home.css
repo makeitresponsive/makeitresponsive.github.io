@@ -44,7 +44,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 4%;
-  margin-bottom: 4%;
 }
 
 .aboutUs-info-small {
@@ -84,7 +83,7 @@
   margin: 0 auto;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 7%;
+
   margin-bottom: 7%;
 }
 
@@ -209,7 +208,6 @@
   display: flex;
   color: white;
   margin: 2%;
-
 }
 .events-bookIcon-tekst button {
   font-size: 2rem;
@@ -342,7 +340,6 @@
   .aboutUs-info-small {
     width: 40%;
     height: 275px;
-
   }
   .aboutUs-info-large {
     width: 57%;
@@ -456,7 +453,6 @@
   .aboutUs-info-small {
     width: 40%;
     height: 250px;
-
   }
   .aboutUs-info-large {
     width: 57%;
@@ -571,7 +567,6 @@
   .aboutUs-info-small {
     width: 40%;
     height: 220px;
-
   }
   .aboutUs-info-large {
     width: 57%;
@@ -691,7 +686,6 @@
   .aboutUs-info-small {
     width: 40%;
     height: 220px;
-
   }
   .aboutUs-info-large {
     width: 57%;

@@ -191,10 +191,6 @@ FORM STYLING
   border-bottom: none !important;
 }
 
-nav a:nth-child(2) {
-  border-bottom: 3px solid #3d5a80;
-}
-
 /* Footer styling
 
 
@@ -320,6 +316,9 @@ Media Queries
 }
 
 @media only screen and (min-width: 750px) {
+  .nav-row2:nth-child(2) {
+
+
   #innovation-type-section,
   #innovation-schedule-section,
   .form-container,

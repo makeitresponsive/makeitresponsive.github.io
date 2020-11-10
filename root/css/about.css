@@ -25,14 +25,6 @@ p {
   font-size: 1.5rem;
 }
 
-.active {
-  border-bottom: none !important;
-}
-
-nav a:nth-child(4) {
-  border-bottom: 3px solid #3d5a80;
-}
-
 /* First container */
 .first-container {
   display: flex;
@@ -41,7 +33,6 @@ nav a:nth-child(4) {
 .first-container-items {
   width: 95%;
   margin: 0 auto;
-  margin-top: 15px;
 }
 .first-container-picture-2 {
   width: 100%;
@@ -185,6 +176,9 @@ p {
 @media only screen and (min-width: 600px) {
 }
 @media only screen and (min-width: 750px) {
+  .first-container-items {
+    display: flex;
+  }
   .paragraph {
     font-size: 2rem;
   }
