@@ -602,7 +602,7 @@
     background-repeat: norepeat, repeat;
     background-size: cover;
     background-position-y: 0rem;
-    height: 31vh;
+    height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
   .events-eventtypes-header-full{
@@ -611,7 +611,7 @@
     background-repeat: norepeat, repeat;
     background-size: cover;
     background-position-x: -4rem;
-    height: 31vh;
+    height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
   .events-eventtypes-header-exclusive{
@@ -620,7 +620,7 @@
     background-repeat: norepeat, repeat;
     background-size: cover;
     background-position-x: -7rem;
-    height: 31vh;
+    height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
   .events-container-description {
@@ -724,7 +724,7 @@
     background-repeat: norepeat, repeat;
     background-size: cover;
     background-position-y: 0rem;
-    height: 28vh;
+    height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
   .events-eventtypes-header-full{
@@ -733,7 +733,7 @@
     background-repeat: norepeat, repeat;
     background-size: cover;
     background-position-x: -4rem;
-    height: 28vh;
+    height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
   .events-eventtypes-header-exclusive{
@@ -742,7 +742,7 @@
     background-repeat: norepeat, repeat;
     background-size: cover;
     background-position-x: -7rem;
-    height: 28vh;
+    height: 35vh;
     border-radius: 10px 0px 0px 10px;
   }
   .events-container-description {
