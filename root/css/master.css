@@ -75,6 +75,17 @@ body {
   margin: 0;
 }
 
+.events-container-description {
+  border: solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.events-events {
+  margin: 0;
+  padding: 0;
+}
+
 /* NavBar */
 .nav-width-container {
   display: flex;
@@ -207,6 +218,9 @@ nav a:hover {
   }
   .nav-Icon {
     visibility: hidden;
+  }
+  events-eventtypes-header-half {
+    height: 100%;
   }
 }
 

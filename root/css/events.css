@@ -1,5 +1,6 @@
 #innovation-type-section,
-#innovation-schedule-section, #hero-display-section {
+#innovation-schedule-section,
+#hero-display-section {
   width: 95%;
   margin: 0 auto;
 }
@@ -15,8 +16,6 @@
   background-position-y: 0rem;
   max-width: 100%;
   height: 40vh;
-  
-  
 }
 
 #innovation-schedule-section h2 {
@@ -25,14 +24,12 @@
 
 .contact-left-column,
 .contact-right-column {
-  
 }
 
 .schedule-container {
-  padding: 0 0 2rem;red;
+  padding: 0 0 2rem;
   display: flex;
   justify-content: flex-start;
-
 }
 
 .schedule-table {
@@ -40,10 +37,10 @@
   border-radius: 10px;
 }
 
-.schedule-left-column, .schedule-right-column{
+.schedule-left-column,
+.schedule-right-column {
   padding: 0 0 2rem;
 }
-
 
 .schedule-table {
   width: 100%;
@@ -52,15 +49,13 @@
   background-color: #f8f8f8;
   align-items: center;
   table-layout: fixed;
-  
 }
 
-.schedule-table :last-child >:last-child > td {
+.schedule-table :last-child > :last-child > td {
   padding: 0 0 3.5rem;
 }
 
-.upper-schedule-container>.schedule-container{
-  
+.upper-schedule-container > .schedule-container {
   display: flex;
   justify-content: flex-end;
 }
@@ -68,7 +63,8 @@
 .schedule-table th,
 .schedule-table td,
 label,
-input, textarea {
+input,
+textarea {
   font-size: 1.5rem;
 }
 
@@ -123,7 +119,6 @@ FORM STYLING
 #contact-section textarea {
   color: black;
   padding: 1rem 1rem 0;
-
 }
 
 .name-container,
@@ -153,7 +148,6 @@ FORM STYLING
 .form-container textarea,
 .message-button {
   color: #f8f8f8;
-  
 }
 
 .form-container label {
@@ -184,17 +178,14 @@ FORM STYLING
   background-color: #3d5a80;
 }
 
-.contact-left-column, .contact-right-column {
-  
+.contact-left-column,
+.contact-right-column {
   padding-bottom: 0;
-  
 }
 
 .company-container {
   padding-bottom: 0;
 }
-
-
 
 .active {
   border-bottom: none !important;
@@ -203,8 +194,6 @@ FORM STYLING
 nav a:nth-child(2) {
   border-bottom: 3px solid #3d5a80;
 }
-
-
 
 /* Footer styling
 
@@ -218,7 +207,7 @@ nav a:nth-child(2) {
 */
 
 footer {
-  background-color: #FFFEFB;
+  background-color: #fffefb;
   color: #ee6c4d;
 }
 
@@ -259,13 +248,6 @@ footer a {
   margin: 0 auto;
 }
 
-
-
-
-
-
-
-
 /* 
 
 
@@ -286,13 +268,13 @@ Media Queries
     padding: 0 0 2rem;
   }
 
-#upper-schedule-left-column {
-  padding-right: 1rem;
-}
+  #upper-schedule-left-column {
+    padding-right: 1rem;
+  }
 
-#upper-schedule-right-column {
-  padding-left: 1rem;
-}
+  #upper-schedule-right-column {
+    padding-left: 1rem;
+  }
   .schedule-container-bottom {
     display: flex;
     justify-content: space-evenly;
@@ -333,7 +315,7 @@ Media Queries
   .table-sub-heading {
   }
 
-  .schedule-left-column,  {
+  .schedule-left-column {
     padding: 0 0 2rem;
   }
 
@@ -345,21 +327,18 @@ Media Queries
 @media only screen and (min-width: 750px) {
   #innovation-type-section,
   #innovation-schedule-section,
-  .form-container, #hero-display-section,
+  .form-container,
+  #hero-display-section,
   #contact-section h2 {
     width: 90%;
   }
 
-.hero-image-container {
-  background-position-y: 0rem;
-  max-width: 100%;
-  background-position-y: -10rem;
-  height: 30vh;
-  
-}
-
-  
-
+  .hero-image-container {
+    background-position-y: 0rem;
+    max-width: 100%;
+    background-position-y: -10rem;
+    height: 30vh;
+  }
 
   h2 {
     text-align: center;
@@ -375,51 +354,51 @@ Media Queries
     text-align: center;
   }
 
-  .schedule-left-column, .schedule-right-column  {
+  .schedule-left-column,
+  .schedule-right-column {
     padding: 0 1rem 3rem;
   }
 
-  #upper-schedule-left-column, #upper-schedule-right-column  {
+  #upper-schedule-left-column,
+  #upper-schedule-right-column {
     padding: 0 1rem 2rem;
   }
-
 
   #contact-section h2 {
     padding: 4rem 0 2rem;
   }
 
   .button-container {
-    margin-top: .85rem
+    margin-top: 0.85rem;
   }
-
 }
 
 @media only screen and (min-width: 1000px) {
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
-  .form-container, #hero-display-section,
+  .form-container,
+  #hero-display-section,
   #contact-section h2 {
     width: 80%;
     margin: 0 auto;
   }
 
-   
-.hero-image-container {
-  background-position-y: -15rem;
-  height: 25vh;
-  
-}
+  .hero-image-container {
+    background-position-y: -15rem;
+    height: 25vh;
+  }
 
-#innovation-schedule-section h2 {
-  padding: 4rem 0 2.5rem;
-}
+  #innovation-schedule-section h2 {
+    padding: 4rem 0 2.5rem;
+  }
 
-.schedule-container-bottom {
-  padding: 0 0 3rem;
-}
+  .schedule-container-bottom {
+    padding: 0 0 3rem;
+  }
 
-  #upper-schedule-left-column, #upper-schedule-right-column {
+  #upper-schedule-left-column,
+  #upper-schedule-right-column {
     padding: 0 1rem 3rem;
   }
 
@@ -427,7 +406,6 @@ Media Queries
     display: flex;
   }
 
-  
   #contact-section h2 {
     padding: 5rem 0 2rem;
   }
@@ -438,16 +416,12 @@ Media Queries
   }
 
   .contact-right-column {
-    padding-lefT: 1.5rem;
+    padding-left: 1.5rem;
   }
 
-  
   .button-container {
-    margin-top: .95rem
+    margin-top: 0.95rem;
   }
-
-
-
 }
 
 @media only screen and (min-width: 1250px) {
@@ -455,43 +429,35 @@ Media Queries
   #innovation-schedule-section,
   #innovation-schedule-section h2,
   .form-container,
-  #contact-section h2, #hero-display-section, {
+  #contact-section h2,
+  #hero-display-section {
     width: 70%;
   }
 
-  
-.hero-image-container {
-  background-position-y: -15rem;
-  height: 30vh;
-  
-}
+  .hero-image-container {
+    background-position-y: -15rem;
+    height: 30vh;
+  }
 
-
-.schedule-table :last-child >:last-child > td {
-  padding: 0 0 4rem;
-}
-
+  .schedule-table :last-child > :last-child > td {
+    padding: 0 0 4rem;
+  }
 
   #innovation-schedule-section h2 {
     padding: 3rem 0 2rem;
   }
 
-  
   #upper-schedule-right-column {
     padding-left: 2rem;
-
   }
 
   #upper-schedule-left-column {
     padding-right: 2rem;
-  } 
-
-  #contact-section input {
-   
-    padding: .35rem 1.25rem 0;
-  
   }
 
+  #contact-section input {
+    padding: 0.35rem 1.25rem 0;
+  }
 
   .form-container input {
     height: 6rem;
@@ -519,29 +485,30 @@ Media Queries
     padding-left: 2rem;
   }
 
-
-  .schedule-left-column, .schedule-right-column, #upper-schedule-left-column, #upper-schedule-right-column {
+  .schedule-left-column,
+  .schedule-right-column,
+  #upper-schedule-left-column,
+  #upper-schedule-right-column {
     padding-bottom: 4rem;
   }
 
-  
   .button-container {
-    margin-top: 1.95rem
+    margin-top: 1.95rem;
   }
 
   .message-button {
     height: 6rem;
   }
-
-  
 }
 
 @media only screen and (min-width: 1440px) {
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
-  .form-container, #hero-display-section,
-  #contact-section h2, .footer-master-container {
+  .form-container,
+  #hero-display-section,
+  #contact-section h2,
+  .footer-master-container {
     width: 60%;
     max-width: 1200px;
   }
@@ -550,12 +517,9 @@ Media Queries
     margin: 0 auto;
   }
 
-  
-.schedule-table :last-child >:last-child > td {
-  padding: 0 0 4.5rem;
-}
-
-
+  .schedule-table :last-child > :last-child > td {
+    padding: 0 0 4.5rem;
+  }
 
   #table-sub-heading {
     font-size: 2.5rem;
@@ -572,10 +536,8 @@ Media Queries
   }
 
   #contact-section h2 {
-
     width: 100%;
   }
-
 
   .contact-left-column {
     padding-left: 0;
@@ -632,12 +594,15 @@ Media Queries
     font-size: 1.5rem;
   }
 
-  .upper-schedule-container, .schedule-container-bottom, .contact-heading-container, .form-container, .footer-master-container {
+  .upper-schedule-container,
+  .schedule-container-bottom,
+  .contact-heading-container,
+  .form-container,
+  .footer-master-container {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-  
   #contact-section h2 {
     padding: 6rem 0 3.5rem;
   }
@@ -646,24 +611,20 @@ Media Queries
     padding: 0 0 7rem;
   }
 
-   
   .button-container {
-    margin-top: .85rem
+    margin-top: 0.85rem;
   }
-
-
 }
 
-
-@media only screen and (min-width: 1525px){
+@media only screen and (min-width: 1525px) {
   #contact-section input {
     height: 7rem;
   }
-  #contact-section textarea{
+  #contact-section textarea {
     height: 19.5rem;
   }
   .button-container {
-    margin-top: -.5rem;
+    margin-top: -0.5rem;
   }
   .message-button {
     height: 7rem;
@@ -671,17 +632,10 @@ Media Queries
   .contact-left-column {
     padding-right: 2rem;
   }
-  .contact-right-column{
+  .contact-right-column {
     padding-left: 2rem;
   }
 }
-
-
-
-
-
-
-
 
 /*
 

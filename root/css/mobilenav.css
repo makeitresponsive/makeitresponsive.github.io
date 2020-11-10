@@ -4,10 +4,11 @@ nav {
 }
 
 nav {
-  padding: 6rem 0 0;
-  border: solid blue;
+  padding: 6rem 4rem 0;
+
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav a {
@@ -25,7 +26,6 @@ nav img {
   height: 5vh;
   width: 5vh;
 
-  border: solid white;
   display: flex;
   align-items: center;
 }
