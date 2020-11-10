@@ -15,6 +15,7 @@
   align-items: center;
   background-image: url(../images/heroDisplay.png);
   filter: brightness(70%);
+  background-position-x: -10rem;
 }
 
 .heroDisplay-image {
