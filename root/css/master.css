@@ -76,10 +76,11 @@ body {
 }
 
 /* NavBar */
-nav {
+.nav-width-container {
   display: flex;
   background-color: white;
-  height: 150px;
+  height: 125px;
+
   justify-content: space-between;
   align-items: center;
   width: 95%;
@@ -94,7 +95,7 @@ nav a {
 
 nav header {
   color: #ee6c4d;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .nav-link-icon-container {
   display: flex;
@@ -121,17 +122,23 @@ nav header {
 .active {
   border-bottom: 3px solid #3d5a80;
 }
+
+nav a:hover {
+  color: #3d5a80;
+  font-weight: 900;
+}
 /* NavBar Slutt */
 
 /* NavBar Media queries */
 @media only screen and (min-width: 600px) {
-  nav {
+  .nav-width-container {
     width: 95%;
+    margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 750px) {
-  nav {
+  .nav-width-container {
     width: 90%;
   }
   .nav-link-icon-container {
@@ -148,7 +155,7 @@ nav header {
 }
 
 @media only screen and (min-width: 1000px) {
-  nav {
+  .nav-width-container {
     width: 80%;
   }
 
@@ -167,7 +174,7 @@ nav header {
 }
 
 @media only screen and (min-width: 1250px) {
-  nav {
+  .nav-width-container {
     width: 70%;
   }
   .nav-link-icon-container {
@@ -185,7 +192,7 @@ nav header {
 }
 
 @media only screen and (min-width: 1440px) {
-  nav {
+  .nav-width-container {
     width: 60%;
     max-width: 1200px;
   }

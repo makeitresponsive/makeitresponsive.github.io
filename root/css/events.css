@@ -196,6 +196,14 @@ FORM STYLING
 
 
 
+.active {
+  border-bottom: none !important;
+}
+
+nav a:nth-child(2) {
+  border-bottom: 3px solid #3d5a80;
+}
+
 
 
 /* Footer styling
@@ -265,7 +273,7 @@ Media Queries
 
 
 */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 749px) {
   .upper-schedule-container {
     display: flex;
     justify-content: space-between;
@@ -334,7 +342,7 @@ Media Queries
   }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 750px) and (max-width: 999px) {
   #innovation-type-section,
   #innovation-schedule-section,
   .form-container, #hero-display-section,
@@ -386,7 +394,7 @@ Media Queries
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) and (max-width: 1249px){
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,
@@ -442,7 +450,7 @@ Media Queries
 
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1250px) and (max-width: 1439px) {
   #innovation-type-section,
   #innovation-schedule-section,
   #innovation-schedule-section h2,

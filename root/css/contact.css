@@ -3,6 +3,20 @@ footer {
   background-color: #ee6c4d;
 }
 
+
+.active {
+  border-bottom: none !important;
+}
+
+nav a:nth-child(3) {
+  border-bottom: 3px solid #3d5a80;
+}
+
+
+
+
+
+
 /* 
 
 
@@ -21,11 +35,11 @@ top section
 }
 
 #intro-section h1 {
-  padding: 2rem 0 1rem;
+  padding: 5rem 0 1rem;
 }
 
 #intro-section p {
-  padding: 0 0 2rem;
+  padding: 0 0 5rem;
 }
 
 .intro-text-container,
@@ -199,22 +213,25 @@ Media queiries
 }
 
 @media only screen and (min-width: 1000px) {
-  .intro-text-container .form-width-container {
+  #intro-section h1,
+  #intro-section p,
+  .form-width-container {
     width: 80%;
     margin: 0 auto;
   }
 
   #intro-section h1 {
-    padding: 6rem 0 2rem;
+    padding: 8rem 0 2rem;
   }
 
   #intro-section p {
-    padding: 0 0 5rem;
+    padding: 0 0 8rem;
   }
 }
 
 @media only screen and (min-width: 1250px) {
-  .intro-text-container,
+  #intro-section h1,
+  #intro-section p,
   .form-width-container {
     width: 70%;
     margin: 0 auto;
@@ -242,11 +259,12 @@ Media queiries
 
   #form-section label {
     padding: 1.25rem 0 0.75rem;
-  }
+  }|
 }
 
 @media only screen and (min-width: 1400px) {
-  .intro-text-container,
+  #intro-section h1,
+  #intro-section p,
   .form-width-container {
     width: 60%;
     margin: 0 auto;
