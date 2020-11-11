@@ -86,7 +86,8 @@ textarea {
 #table-sub-heading1,
 #table-sub-heading2,
 #table-sub-heading3,
-#table-sub-heading4 {
+#table-sub-heading4,
+#table-sub-heading5 {
   font-weight: 500;
   font-size: 2rem;
   padding: 3rem 0 2rem;
@@ -519,7 +520,8 @@ Media Queries
   #table-sub-heading1,
   #table-sub-heading2,
   #table-sub-heading3,
-  #table-sub-heading4 {
+  #table-sub-heading4,
+  #table-sub-heading5 {
     font-size: 2.5rem;
     padding: 4rem 0 3rem;
   }
@@ -569,7 +571,9 @@ Media Queries
 
   #table-sub-heading1,
   #table-sub-heading2,
-  #table-sub-heading3 {
+  #table-sub-heading3,
+  #table-sub-heading4,
+  #table-sub-heading5 {
     font-size: 2.5rem;
     font-weight: 500;
   }
