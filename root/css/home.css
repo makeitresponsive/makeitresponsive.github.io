@@ -20,7 +20,7 @@
 }
 
 .heroDisplay-image {
-  visibility: hidden;
+  display: none;
   max-width: 100%;
   height: auto;
   filter: brightness(70%);
