@@ -391,6 +391,7 @@ footer h2 {
 footer a {
   text-decoration: none;
   color: #f8f8f8;
+  padding: 0;
 }
 
 .footer-text-container a:hover {
