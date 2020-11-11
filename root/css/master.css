@@ -127,6 +127,10 @@ nav a {
   padding: 2rem 1rem 0;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 /* NavBar Slutt */
 
 /* NavBar Media queries */
