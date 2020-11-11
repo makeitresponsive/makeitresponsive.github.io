@@ -22,7 +22,7 @@
 }
 
 .heroDisplay-image {
-  visibility: visible;
+  visibility: hidden;
   max-width: 100%;
   height: auto;
   filter: brightness(70%);
@@ -99,7 +99,7 @@
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  margin-bottom: 2%;
+  padding: 2rem 0 1rem;
 }
 
 .events-tittel-description {
@@ -118,6 +118,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  padding: 0 0 2rem;
 }
 
 .events-events {
@@ -200,7 +202,7 @@
   justify-content: center;
   border-radius: 10px;
   margin-top: 3%;
-  margin-bottom: 3%;
+
   padding: 1.5%;
 }
 
@@ -225,8 +227,7 @@
   justify-content: center;
   align-items: flex-start;
   width: 95%;
-  margin-bottom: 6%;
-  margin-top: 4%;
+  padding: 2rem 0 2rem;
 }
 
 .stories-header {
@@ -357,7 +358,9 @@
   }
 
   .events-container-tittel {
-    width: 60%;
+    width: ;
+
+    padding: 0 0 1rem;
   }
 
   .events-eventtypes-header-half {
@@ -392,6 +395,7 @@
 
   .events-container-description {
     margin: 3%;
+
     align-items: flex-start;
   }
   .events-images {
@@ -405,6 +409,17 @@
   }
   .events-eventtypes-description {
     line-height: 3;
+  }
+
+  .events-container-eventtypes {
+    padding: 0;
+    margin: 0;
+  }
+
+  .events-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0rem 0 4rem;
   }
 
   .stories-main-container {
@@ -469,7 +484,6 @@
     margin-top: 4%;
   }
   .events-container-tittel {
-    width: 60%;
   }
   .events-eventtypes-header-half {
     width: 40%;
@@ -580,11 +594,18 @@
   .events-events {
     flex-direction: row;
     margin: 0 auto;
-    margin-top: 4%;
+    margin: 3rem 0 0;
   }
   .events-container-tittel {
-    width: 60%;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
   }
+
+  .events-tittel-headline {
+    justify-content: center;
+  }
+
   .events-eventtypes-header-half {
     width: 40%;
     background-image: url(../images/halfdaySeminar.png);
@@ -703,7 +724,7 @@
     margin-top: 4%;
   }
   .events-container-tittel {
-    width: 60%;
+    width: 100%;
   }
   .events-eventtypes-header-half {
     width: 40%;

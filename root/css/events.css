@@ -83,7 +83,9 @@ textarea {
   text-align: center;
 }
 
-#table-sub-heading {
+#table-sub-heading1,
+#table-sub-heading2,
+#table-sub-heading3 {
   font-weight: 500;
   font-size: 2rem;
   padding: 3rem 0 2rem;
@@ -285,11 +287,6 @@ Media Queries
     padding: 3rem 0 1rem;
   }
 
-  .contact-left-column,
-  .contact-right-column {
-    width: 50%;
-  }
-
   .contact-left-column {
     padding-right: 1rem;
   }
@@ -317,56 +314,58 @@ Media Queries
 
 @media only screen and (min-width: 750px) {
   .nav-row2:nth-child(2) {
+    #innovation-type-section,
+    #innovation-schedule-section,
+    .form-container,
+    #hero-display-section,
+    #contact-section h2 {
+      width: 90%;
+    }
 
+    .hero-image-container {
+      background-position-y: 0rem;
+      max-width: 100%;
+      background-position-y: -10rem;
+      height: 30vh;
+    }
 
-  #innovation-type-section,
-  #innovation-schedule-section,
-  .form-container,
-  #hero-display-section,
-  #contact-section h2 {
-    width: 90%;
-  }
+    h2 {
+      text-align: center;
+    }
 
-  .hero-image-container {
-    background-position-y: 0rem;
-    max-width: 100%;
-    background-position-y: -10rem;
-    height: 30vh;
-  }
+    footer h2 {
+      text-align: left;
+    }
 
-  h2 {
-    text-align: center;
-  }
+    #contact-section h2 {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
 
-  footer h2 {
-    text-align: left;
-  }
+    .schedule-left-column,
+    .schedule-right-column {
+      padding-bottom: 3rem;
+    }
 
-  #contact-section h2 {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-  }
+    .schedule-left-column {
+      padding-right: 1rem;
+    }
 
-  .schedule-left-column,
-  .schedule-right-column {
-    padding: 0 1rem 3rem;
-  }
+    #upper-schedule-left-column,
+    #upper-schedule-right-column {
+      padding: 0 1rem 2rem;
+    }
 
-  #upper-schedule-left-column,
-  #upper-schedule-right-column {
-    padding: 0 1rem 2rem;
-  }
+    #contact-section h2 {
+      padding: 4rem 0 2rem;
+    }
 
-  #contact-section h2 {
-    padding: 4rem 0 2rem;
-  }
-
-  .button-container {
-    margin-top: 0.85rem;
+    .button-container {
+      margin-top: 0.85rem;
+    }
   }
 }
-
 @media only screen and (min-width: 1000px) {
   #innovation-type-section,
   #innovation-schedule-section,
@@ -385,6 +384,7 @@ Media Queries
 
   #innovation-schedule-section h2 {
     padding: 4rem 0 2.5rem;
+    text-align: center;
   }
 
   .schedule-container-bottom {
@@ -515,7 +515,9 @@ Media Queries
     padding: 0 0 4.5rem;
   }
 
-  #table-sub-heading {
+  #table-sub-heading1,
+  #table-sub-heading2,
+  #table-sub-heading3 {
     font-size: 2.5rem;
     padding: 4rem 0 3rem;
   }
@@ -563,7 +565,9 @@ Media Queries
     font-size: 2rem;
   }
 
-  .table-sub-heading {
+  #table-sub-heading1,
+  #table-sub-heading2,
+  #table-sub-heading3 {
     font-size: 2.5rem;
     font-weight: 500;
   }
